@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Battery-Board")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Libraries/Battery-Board.pretty")(options "")(descr ""))
+)
