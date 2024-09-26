@@ -102,6 +102,150 @@
 				)
 			)
 		)
+		(symbol "Battery-Board:Keystone-1048"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -0.254 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Keystone-1048"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BatteryBoard:BAT_1048"
+				(at 0 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Keystone-1048_1_1"
+				(rectangle
+					(start -7.62 -2.54)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "POS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "POS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers hide)
 			(pin_names
@@ -381,6 +525,12 @@
 		)
 	)
 	(junction
+		(at 120.65 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "003f6256-9df4-4b80-bce9-732df9066c67")
+	)
+	(junction
 		(at 133.35 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -399,12 +549,6 @@
 		(uuid "313ece8d-15f8-4748-8e7f-04674d6fae61")
 	)
 	(junction
-		(at 106.68 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e12957c-9509-4508-ac49-67411b3a0d57")
-	)
-	(junction
 		(at 120.65 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -415,12 +559,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3c7c25-9451-471f-8043-94164d2be0ae")
-	)
-	(junction
-		(at 106.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c48fc7-7c98-4582-a78c-de69919af6a3")
 	)
 	(junction
 		(at 146.05 69.85)
@@ -435,22 +573,16 @@
 		(uuid "a3ec6230-2146-400d-a329-e78dec813044")
 	)
 	(junction
+		(at 110.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e46f65cb-7c5f-4bd6-b1e5-1a4bbdd879b0")
+	)
+	(junction
 		(at 146.05 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeb272a4-3c17-476e-8402-09f14413441d")
-	)
-	(junction
-		(at 120.65 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef81198b-f7d6-4aa9-af16-9e2be132ead8")
-	)
-	(junction
-		(at 120.65 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff3d2f42-f24d-41ae-ba4f-04d9c6a19cd2")
 	)
 	(wire
 		(pts
@@ -474,7 +606,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 99.06) (xy 106.68 93.98)
+			(xy 110.49 99.06) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -504,23 +636,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 110.49 66.04)
+			(xy 120.65 119.38) (xy 120.65 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25de54d1-63e9-40ec-aea9-be152650d2a8")
+	)
+	(wire
+		(pts
+			(xy 110.49 66.04) (xy 113.03 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2dd5bb60-94a9-4713-a1d4-49d0a7512ad9")
-	)
-	(wire
-		(pts
-			(xy 120.65 116.84) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379cfcc9-b271-437c-87f7-4dec90868406")
 	)
 	(wire
 		(pts
@@ -534,7 +666,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 120.65 124.46)
+			(xy 119.38 124.46) (xy 120.65 124.46)
 		)
 		(stroke
 			(width 0)
@@ -564,13 +696,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 124.46) (xy 106.68 119.38)
+			(xy 110.49 124.46) (xy 110.49 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56151249-d677-4f1f-9778-ff561a01e2fa")
+		(uuid "53866c93-b0ff-4c33-a583-39b5dc1d6016")
 	)
 	(wire
 		(pts
@@ -594,7 +726,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 124.46) (xy 110.49 124.46)
+			(xy 110.49 124.46) (xy 114.3 124.46)
 		)
 		(stroke
 			(width 0)
@@ -624,13 +756,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 106.68 119.38)
+			(xy 110.49 93.98) (xy 120.65 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60bdb72d-eb31-4082-acfa-38859b18234b")
+		(uuid "6902c798-382b-4174-986a-3f84b21be1db")
 	)
 	(wire
 		(pts
@@ -664,23 +796,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0b6977-1bc1-45fc-b52c-d71f55cd044a")
-	)
-	(wire
-		(pts
 			(xy 120.65 124.46) (xy 124.46 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "876bb082-ed68-4fb7-87da-fadcbc8be73e")
+		(uuid "7ef1cf5c-d243-4478-aabd-4f9eae78f6ff")
 	)
 	(wire
 		(pts
@@ -724,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 90.17) (xy 106.68 93.98)
+			(xy 110.49 90.17) (xy 110.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -754,7 +876,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 66.04) (xy 120.65 66.04)
+			(xy 118.11 66.04) (xy 120.65 66.04)
 		)
 		(stroke
 			(width 0)
@@ -774,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 106.68 69.85)
+			(xy 110.49 66.04) (xy 110.49 69.85)
 		)
 		(stroke
 			(width 0)
@@ -794,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 120.65 93.98)
+			(xy 120.65 93.98) (xy 120.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -831,16 +953,6 @@
 			(type default)
 		)
 		(uuid "cc56350b-1eaf-4fc2-9643-327f545b7c9b")
-	)
-	(wire
-		(pts
-			(xy 120.65 124.46) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e142cbd8-af2d-45dc-ac8b-faf942b2fa07")
 	)
 	(wire
 		(pts
@@ -1172,74 +1284,6 @@
 	)
 	(symbol
 		(lib_id "Battery-Board:Keystone-1042")
-		(at 106.68 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4788956c-5665-41d9-8771-cd61fc885f3d")
-		(property "Reference" "J2"
-			(at 99.06 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keystone-1042"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35095158-70db-4a58-8fd2-edf160e35b16")
-		)
-		(pin "1"
-			(uuid "1927ee9d-6e19-41b4-89cc-dbfa49687dc7")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
 		(at 133.35 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1307,7 +1351,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 113.03 66.04 0)
+		(at 115.57 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1316,7 +1360,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ffe7cf4-eefc-4fe4-894d-b394fba4e2c4")
 		(property "Reference" "F10"
-			(at 113.03 60.96 0)
+			(at 115.57 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1368,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 113.03 63.5 0)
+			(at 115.57 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1376,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 113.03 66.04 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 66.04 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1394,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 113.03 66.04 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,33 +1553,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
-		(at 120.65 80.01 90)
+		(lib_id "Battery-Board:Keystone-1048")
+		(at 115.57 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf58fdc4-4fe3-4821-b232-bac69d239341")
-		(property "Reference" "J3"
-			(at 113.03 80.01 0)
+		(uuid "cc7a094e-1f6b-403e-97ea-4455557f7c10")
+		(property "Reference" "J1"
+			(at 124.46 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keystone-1042"
-			(at 115.57 80.01 0)
+		(property "Value" "Keystone-1048"
+			(at 124.46 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
-			(at 120.65 80.01 0)
+		(property "Footprint" "Battery-Board:BAT_1048"
+			(at 124.714 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 80.01 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 80.01 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,16 +1607,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6a169b53-ad0d-401a-ad88-f4a656008ea1")
-		)
 		(pin "1"
-			(uuid "5a17e704-ed54-46d3-911e-73cffc905dd5")
+			(uuid "b844d0bb-bc1a-4797-b7d0-338d4d6ba083")
+		)
+		(pin "4"
+			(uuid "b651b12c-f315-428b-8cb3-ffa9389fb38c")
+		)
+		(pin "3"
+			(uuid "8c14b7e1-3178-4b69-aea8-ba8646f75883")
+		)
+		(pin "2"
+			(uuid "e5849198-2b05-4d43-b791-2cd304b334e0")
 		)
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1647,76 +1699,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
-		(at 106.68 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d39044fd-36ef-47f2-a5b1-fe899a3fb246")
-		(property "Reference" "J1"
-			(at 99.06 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Keystone-1042"
-			(at 101.6 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f1bebb8-0ed3-4220-a782-8502262c9de8")
-		)
-		(pin "1"
-			(uuid "bf7ddd2e-3732-4df6-aebb-d10f815ed8f3")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 113.03 124.46 0)
+		(at 116.84 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1725,7 +1709,7 @@
 		(fields_autoplaced yes)
 		(uuid "d82213d7-0785-42b5-a4ae-891ff8f6e2cd")
 		(property "Reference" "F12"
-			(at 113.03 119.38 0)
+			(at 116.84 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1717,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 113.03 121.92 0)
+			(at 116.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 113.03 124.46 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 124.46 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1743,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 113.03 124.46 0)
+			(at 116.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,33 +1767,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
-		(at 120.65 107.95 90)
+		(lib_id "Battery-Board:Keystone-1048")
+		(at 115.57 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9043078-300b-412c-8c1e-c97ee4d37cf4")
-		(property "Reference" "J4"
-			(at 113.03 107.95 0)
+		(uuid "ebd1f82c-a260-4f0b-8f6e-8305c78d36f9")
+		(property "Reference" "J9"
+			(at 124.46 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Keystone-1042"
-			(at 115.57 107.95 0)
+		(property "Value" "Keystone-1048"
+			(at 124.46 81.2799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
-			(at 120.65 107.95 0)
+		(property "Footprint" "Battery-Board:BAT_1048"
+			(at 124.714 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 107.95 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +1813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 107.95 0)
+			(at 110.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,16 +1821,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fcbe0fb7-bb67-42e4-be2e-5102093f4922")
-		)
 		(pin "1"
-			(uuid "90d15541-c51b-4b73-991a-ea942421fde9")
+			(uuid "711e2382-fe9e-4e9c-b2f3-a7065678765d")
+		)
+		(pin "4"
+			(uuid "109fe283-666e-4b56-a0ac-24b2a34865c2")
+		)
+		(pin "3"
+			(uuid "480d81ea-270f-4e44-9464-440a4f2219ef")
+		)
+		(pin "2"
+			(uuid "ca783a25-14b2-4dff-b169-6fe4b9cb5a40")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
