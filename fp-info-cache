@@ -1,4 +1,4 @@
-23843082996644221
+23846537612292411
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -364,11 +364,25 @@ MAX17205G+
 15
 15
 Battery-Board
+1824543
+1824543
+Connector
+0
+6
+6
+Battery-Board
+Keystone_1042
+
+
+0
+2
+2
+Battery-Board
 MOSFET_7DP-T1-GE3_VIS
 
 SIRA99DP-T1-GE3 
 0
-8
+9
 8
 Battery-Board
 TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL

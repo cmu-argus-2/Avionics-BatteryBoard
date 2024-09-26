@@ -5,6 +5,141 @@
 	(uuid "09daedcd-144b-470b-83f7-c2c370503b6c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -709,6 +844,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 67.31) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733a8e00-3dd1-4b38-bf87-dbd9238f3e79")
+	)
+	(wire
+		(pts
 			(xy 195.58 99.06) (xy 195.58 106.68)
 		)
 		(stroke
@@ -756,6 +901,16 @@
 			(type default)
 		)
 		(uuid "989585c6-6e5d-4007-965d-6ff0243d2400")
+	)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 113.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0034267-9c6c-4451-9695-a58ff5751323")
 	)
 	(wire
 		(pts
@@ -866,7 +1021,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 186.69 114.3 0)
 			(effects
 				(font
@@ -914,6 +1069,75 @@
 	)
 	(symbol
 		(lib_id "power:+1V0")
+		(at 113.03 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e27178-e38b-46f9-9ca6-515786fe2d76")
+		(property "Reference" "#PWR039"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYSTEM_VDD"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "444fc313-b8ff-40d8-9e92-e1dd7e863cc3")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/b0261011-2adb-4b34-9815-14af15ff5ea4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
 		(at 139.7 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -922,7 +1146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bdb70ad-f68c-452c-a049-906b77bf0475")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0101"
 			(at 139.7 90.17 0)
 			(effects
 				(font
@@ -967,10 +1191,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "947c9d7d-c858-4f5e-a159-60f5eec8a1dc")
+			(uuid "e3be37c3-2886-423e-93e2-387f98675332")
 		)
 		(instances
 			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "#PWR0101")
+					(unit 1)
+				)
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/b0261011-2adb-4b34-9815-14af15ff5ea4"
 					(reference "#PWR026")
 					(unit 1)
@@ -1125,7 +1353,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a4359938-3740-483f-adb4-f3882aab5c1f")
+			(uuid "d7f5f011-be3f-40f1-bf83-d812d21def05")
 		)
 		(instances
 			(project "BatteryBoard"
@@ -1135,6 +1363,150 @@
 				)
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/b0261011-2adb-4b34-9815-14af15ff5ea4"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 113.03 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f15b3ef-c3cd-430e-8209-fd76ba8acb6f")
+		(property "Reference" "C18"
+			(at 115.57 72.3962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 115.57 74.9362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82689910-423f-4f15-b740-3cd19b478169")
+		)
+		(pin "2"
+			(uuid "d34c5272-4445-4a15-be06-458dc2e84430")
+		)
+		(instances
+			(project ""
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/b0261011-2adb-4b34-9815-14af15ff5ea4"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f7de87e-b867-4afa-8ee8-c60220af511e")
+		(property "Reference" "#PWR041"
+			(at 113.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7f692f-3891-4196-841f-ef12a985bee4")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/b0261011-2adb-4b34-9815-14af15ff5ea4"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -1195,7 +1567,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa31bc0c-9c73-4ae5-9089-20367c47db41")
+			(uuid "c4c46b08-b772-42e3-ac5d-737cf1729027")
 		)
 		(instances
 			(project "BatteryBoard"
@@ -1238,7 +1610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 106.68 0)
 			(effects
 				(font
@@ -1310,7 +1682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 186.69 99.06 0)
 			(effects
 				(font
@@ -1382,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 186.69 106.68 0)
 			(effects
 				(font

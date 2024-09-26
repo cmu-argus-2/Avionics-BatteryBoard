@@ -661,6 +661,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -972,6 +1118,126 @@
 				)
 			)
 		)
+		(symbol "power:+1V0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -1070,12 +1336,6 @@
 		)
 	)
 	(junction
-		(at 50.8 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "028e4f18-25ce-458a-9530-75ce8dc34f97")
-	)
-	(junction
 		(at 109.22 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1154,6 +1414,12 @@
 		(uuid "910a5889-d8db-4960-8eba-af14d50669bd")
 	)
 	(junction
+		(at 50.8 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d30f90-d767-459b-92c7-29f343ed3ef9")
+	)
+	(junction
 		(at 129.54 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1188,6 +1454,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7c0c31d-c73e-44be-a989-3e2a658ebc55")
+	)
+	(junction
+		(at 66.04 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaf15145-41d6-4d58-922f-52429c23d0f2")
 	)
 	(junction
 		(at 74.93 161.29)
@@ -1259,6 +1531,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 144.78) (xy 50.8 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ee8288-a177-4af8-b9b7-7c4ca92a41a0")
+	)
+	(wire
+		(pts
 			(xy 129.54 161.29) (xy 152.4 161.29)
 		)
 		(stroke
@@ -1289,6 +1571,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 123.19) (xy 50.8 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ceb6509-459e-43a3-947f-282f86589b5a")
+	)
+	(wire
+		(pts
 			(xy 104.14 85.09) (xy 104.14 105.41)
 		)
 		(stroke
@@ -1309,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 161.29) (xy 74.93 161.29)
+			(xy 50.8 161.29) (xy 66.04 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1326,6 +1618,16 @@
 			(type default)
 		)
 		(uuid "2b3db58b-e7ab-415d-a725-0a7967e3d97a")
+	)
+	(wire
+		(pts
+			(xy 66.04 161.29) (xy 74.93 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343b305e-b975-420b-9436-ff87ee64f78d")
 	)
 	(wire
 		(pts
@@ -1489,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.6262 161.2661) (xy 68.6262 168.8861)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "677ff02f-bcfb-4739-97e1-5cc320a02d7c")
-	)
-	(wire
-		(pts
 			(xy 116.84 196.85) (xy 116.84 199.39)
 		)
 		(stroke
@@ -1526,6 +1818,16 @@
 			(type default)
 		)
 		(uuid "69ea6ae5-d6fd-44b2-83db-9155f771ea8a")
+	)
+	(wire
+		(pts
+			(xy 50.8 85.09) (xy 50.8 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0499f1-79d7-4a6c-be84-e2f7893791d5")
 	)
 	(wire
 		(pts
@@ -1679,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 176.53) (xy 68.6262 176.53)
+			(xy 80.01 176.53) (xy 66.04 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.6262 173.9661) (xy 68.6262 176.53)
+			(xy 66.04 173.99) (xy 66.04 176.53)
 		)
 		(stroke
 			(width 0)
@@ -1766,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "b23ee256-70d6-4175-ad4f-b536d9cb8708")
+	)
+	(wire
+		(pts
+			(xy 66.04 161.29) (xy 66.04 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21102d3-1731-4a3e-b8d9-00ddefd123e2")
 	)
 	(wire
 		(pts
@@ -1849,16 +2161,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 123.19) (xy 50.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de9f3b7c-ab94-4471-b3ac-35c962074ef4")
-	)
-	(wire
-		(pts
 			(xy 106.68 181.61) (xy 99.06 181.61)
 		)
 		(stroke
@@ -1899,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 105.41) (xy 50.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee13a44b-1bf5-41c9-866c-6c5cd7622392")
+	)
+	(wire
+		(pts
 			(xy 124.46 80.01) (xy 124.46 82.55)
 		)
 		(stroke
@@ -1936,16 +2248,6 @@
 			(type default)
 		)
 		(uuid "fb4b4059-141c-4b90-a98a-b14a81a77ea2")
-	)
-	(wire
-		(pts
-			(xy 50.8 161.29) (xy 50.8 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbd80d98-b239-4381-8a2b-505f2ff45caf")
 	)
 	(wire
 		(pts
@@ -1993,7 +2295,7 @@
 		)
 		(uuid "7277e8ad-73a4-4c28-92be-68ea1c1fb5af")
 	)
-	(hierarchical_label "DISCHARGE_ENABLE"
+	(hierarchical_label "DISCHARGE_EN"
 		(shape input)
 		(at 76.2 181.61 180)
 		(fields_autoplaced yes)
@@ -2005,19 +2307,7 @@
 		)
 		(uuid "90da4d76-61a8-4434-aa02-d2de5e39c30d")
 	)
-	(hierarchical_label "SYSTEM_VDD"
-		(shape bidirectional)
-		(at 167.64 123.19 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "989e93de-6785-4eee-b43c-123ebdb2e3b9")
-	)
-	(hierarchical_label "CHARGE_ENABLE"
+	(hierarchical_label "CHARGE_EN"
 		(shape input)
 		(at 76.2 105.41 180)
 		(fields_autoplaced yes)
@@ -2031,7 +2321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 68.6262 171.4261 0)
+		(at 66.04 171.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2040,7 +2330,7 @@
 		(dnp no)
 		(uuid "04f2e2aa-f790-4405-bb11-326f8be8ebde")
 		(property "Reference" "R13"
-			(at 73.7062 170.4101 0)
+			(at 71.12 170.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,7 +2339,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 74.9762 172.4421 0)
+			(at 72.39 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +2348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 68.6262 171.4261 0)
+			(at 66.04 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2357,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.6262 171.4261 0)
+			(at 66.04 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2366,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 68.6262 171.4261 0)
+			(at 66.04 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2192,7 +2482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "Battery-Board:MOSFET_7DP-T1-GE3_VIS"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -2345,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "Battery-Board:MOSFET_7DP-T1-GE3_VIS"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -2477,6 +2767,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 50.8 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe5fef8-43a2-40d2-9f09-f9c77e8d73ef")
+		(property "Reference" "F3"
+			(at 53.34 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6A"
+			(at 53.34 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 49.53 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "679d845d-773c-441f-bc66-3ffd6b6bac88")
+		)
+		(pin "1"
+			(uuid "245a520b-7cf4-4dc4-a800-2a6cab5f0c79")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 99.06 189.23 0)
 		(mirror y)
@@ -2547,6 +2908,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 50.8 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d8d8d77-fba0-408b-a7cc-dd72e74ed0b9")
+		(property "Reference" "F2"
+			(at 53.34 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6A"
+			(at 53.34 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 50.8 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8604e727-6191-4e56-828d-b9944ef7cec2")
+		)
+		(pin "1"
+			(uuid "3f7bd45f-9636-4a53-b8af-c0727ca57dfe")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 134.62 113.03 0)
 		(unit 1)
@@ -2610,6 +3042,71 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V0")
+		(at 167.64 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb64aec6-a958-4a25-a856-7a721a5381fa")
+		(property "Reference" "#PWR050"
+			(at 167.64 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SYSTEM_VDD"
+			(at 167.64 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 167.64 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf59d991-384d-4d91-851b-3f007281e170")
+		)
+		(instances
+			(project "BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2724,7 +3221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "Battery-Board:MOSFET_7DP-T1-GE3_VIS"
 			(at 119.38 168.91 0)
 			(effects
 				(font
@@ -2894,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "Battery-Board:MOSFET_7DP-T1-GE3_VIS"
 			(at 80.01 168.91 0)
 			(effects
 				(font

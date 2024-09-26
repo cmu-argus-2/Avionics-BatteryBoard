@@ -1307,7 +1307,7 @@
 		)
 		(uuid "fbb758c0-2508-409e-a81c-1b6e0e4456c1")
 	)
-	(hierarchical_label "CHARGE_ENABLE"
+	(hierarchical_label "CHARGE_EN"
 		(shape output)
 		(at 237.49 81.28 0)
 		(fields_autoplaced yes)
@@ -1355,7 +1355,7 @@
 		)
 		(uuid "ce8db809-60fb-45e8-ad64-2d8a59e36fa6")
 	)
-	(hierarchical_label "DISCHARGE_ENABLE"
+	(hierarchical_label "DISCHARGE_EN"
 		(shape output)
 		(at 237.49 83.82 0)
 		(fields_autoplaced yes)
@@ -1395,7 +1395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 161.29 102.87 0)
 			(effects
 				(font
@@ -1465,7 +1465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 102.87 105.41 0)
 			(effects
 				(font
@@ -1535,7 +1535,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 102.87 124.46 0)
 			(effects
 				(font
@@ -1605,7 +1605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -1674,7 +1674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "Battery-Board:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 116.84 111.76 0)
 			(effects
 				(font
@@ -1764,7 +1764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 91.44 0)
 			(effects
 				(font
@@ -1834,7 +1834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 171.45 69.85 0)
 			(effects
 				(font
@@ -1904,7 +1904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -1974,7 +1974,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 114.3 124.46 0)
 			(effects
 				(font
@@ -2044,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "Battery-Board:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 185.42 78.74 0)
 			(effects
 				(font
@@ -2202,7 +2202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 83.82 124.46 0)
 			(effects
 				(font
