@@ -14168,7 +14168,7 @@
 		(at 161.5 114)
 		(tags "S-8209AAA-T8T1U ")
 		(property "Reference" "U2"
-			(at 0 0 180)
+			(at 4.85 0.85 -90)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "923a838f-0499-4d34-b9da-73ad73b14b6f")
@@ -22055,13 +22055,13 @@
 		(descr "1824543")
 		(tags "Connector")
 		(property "Reference" "J7"
-			(at 0 0 90)
+			(at -8.025 -11.8 180)
 			(layer "B.SilkS")
 			(uuid "51e199a5-dfec-4a0a-984f-3ea5c77bbcf5")
 			(effects
 				(font
 					(size 0.8 0.8)
-					(thickness 0.254)
+					(thickness 0.2)
 				)
 				(justify mirror)
 			)
@@ -22411,7 +22411,7 @@
 			(pintype "passive")
 			(uuid "79492e71-c418-45d0-9f6e-c8ae33c258bb")
 		)
-		(model "C:\\Users\\varun\\Documents\\Carnegie Mellon\\18873\\Avionics-Hardware\\DRV8235_Test\\test\\SamacSys_Parts.3dshapes\\1824543.stp"
+		(model "${KIPRJMOD}/KiCad-Libraries/3D Models/1824543.stp"
 			(offset
 				(xyz -7.15999974 0.5299999634 0)
 			)
@@ -24850,7 +24850,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 1.43 0)
+			(at 2.15 0 90)
 			(layer "B.SilkS")
 			(uuid "bc57e6a3-6652-436c-943d-63d3cb283f67")
 			(effects
@@ -32995,7 +32995,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 1.43 0)
+			(at 2.5 0 0)
 			(layer "B.SilkS")
 			(uuid "d210d660-18d6-49b5-a748-b238f0cd6188")
 			(effects
