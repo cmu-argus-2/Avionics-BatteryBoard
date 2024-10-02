@@ -5,7 +5,7 @@
 	(uuid "43e13422-4651-4010-b073-74ca0df89bba")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery-Board:1824543"
+		(symbol "Argus-Connectors:1824543"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3889,7 +3889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:1824543")
+		(lib_id "Argus-Connectors:1824543")
 		(at 80.01 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3914,7 +3914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:1824543"
+		(property "Footprint" "Argus-Connectors:1824543"
 			(at 96.52 178.74 0)
 			(effects
 				(font

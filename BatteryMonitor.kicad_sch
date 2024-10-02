@@ -5,7 +5,7 @@
 	(uuid "fe8c503c-cd78-4e05-895d-67ce4c80dedd")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery-Board:MAX17205G+"
+		(symbol "Argus-IC:MAX17205G+"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2595,7 +2595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:MAX17205G+")
+		(lib_id "Argus-IC:MAX17205G+")
 		(at 92.71 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2620,7 +2620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:21-0137_T1433&plus_2C_MXM"
+		(property "Footprint" "Argus-IC:21-0137_T1433&plus_2C_MXM"
 			(at 92.71 85.09 0)
 			(effects
 				(font

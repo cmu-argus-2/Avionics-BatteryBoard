@@ -5,7 +5,7 @@
 	(uuid "67f1ccc8-bc57-4eb8-8331-f775885ef8b7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery-Board:Keystone-1042"
+		(symbol "Argus-Misc:Keystone-1042"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -102,7 +102,7 @@
 				)
 			)
 		)
-		(symbol "Battery-Board:Keystone-1048"
+		(symbol "Argus-Misc:Keystone-1048"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1283,7 +1283,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
+		(lib_id "Argus-Misc:Keystone-1042")
 		(at 133.35 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1307,7 +1307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
+		(property "Footprint" "Argus-Misc:Keystone_1042"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1042")
+		(lib_id "Argus-Misc:Keystone-1042")
 		(at 133.35 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1510,7 +1510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:Keystone_1042"
+		(property "Footprint" "Argus-Misc:Keystone_1042"
 			(at 133.35 80.01 0)
 			(effects
 				(font
@@ -1553,7 +1553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1048")
+		(lib_id "Argus-Misc:Keystone-1048")
 		(at 115.57 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1579,7 +1579,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Battery-Board:BAT_1048"
+		(property "Footprint" "Argus-Misc:BAT_1048"
 			(at 124.714 109.22 0)
 			(effects
 				(font
@@ -1766,7 +1766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:Keystone-1048")
+		(lib_id "Argus-Misc:Keystone-1048")
 		(at 115.57 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1792,7 +1792,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Battery-Board:BAT_1048"
+		(property "Footprint" "Argus-Misc:BAT_1048"
 			(at 124.714 80.01 0)
 			(effects
 				(font

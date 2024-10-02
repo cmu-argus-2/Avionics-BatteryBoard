@@ -5,7 +5,7 @@
 	(uuid "15ebf593-65a9-449d-a7de-eb8665ce0e36")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Battery-Board:S-8209AAA-T8T1U"
+		(symbol "Argus-IC:S-8209AAA-T8T1U"
 			(pin_names
 				(offset 0.254)
 			)
@@ -86,46 +86,10 @@
 			(symbol "S-8209AAA-T8T1U_0_1"
 				(polyline
 					(pts
-						(xy 7.62 -12.7) (xy 33.02 -12.7)
+						(xy 33.02 -12.7) (xy 33.02 5.08) (xy 7.62 5.08) (xy 7.62 -12.7) (xy 33.02 -12.7)
 					)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -526,243 +490,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "S-8209AAA-T8T1U_1"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "S-8209AAA-T8T1U"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "S-8209AAA-T8T1U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "S-8209AAA-T8T1U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL-M TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "S-8209AAA-T8T1U_1_0_1"
-				(polyline
-					(pts
-						(xy 33.02 -12.7) (xy 33.02 5.08) (xy 7.62 5.08) (xy 7.62 -12.7) (xy 33.02 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "CTLC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "CTLD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "CDT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 -5.08 180)
-					(length 7.62)
-					(name "DO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 -2.54 180)
-					(length 7.62)
-					(name "CO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "CB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1658,8 +1385,7 @@
 		)
 	)
 	(symbol
-		(lib_name "S-8209AAA-T8T1U_1")
-		(lib_id "Battery-Board:S-8209AAA-T8T1U")
+		(lib_id "Argus-IC:S-8209AAA-T8T1U")
 		(at 116.84 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1684,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "Argus-IC:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 116.84 111.76 0)
 			(effects
 				(font
@@ -2097,7 +1823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery-Board:S-8209AAA-T8T1U")
+		(lib_id "Argus-IC:S-8209AAA-T8T1U")
 		(at 185.42 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2122,7 +1848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery-Board:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "Argus-IC:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 185.42 78.74 0)
 			(effects
 				(font
