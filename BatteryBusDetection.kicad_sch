@@ -1410,7 +1410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-IC:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 116.84 111.76 0)
 			(effects
 				(font
@@ -1848,7 +1848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-IC:TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
+		(property "Footprint" "TSSOP8-E-PKG_FT008-A-P-SD-1.2_ABL"
 			(at 185.42 78.74 0)
 			(effects
 				(font

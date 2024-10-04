@@ -5,540 +5,6 @@
 	(uuid "773ede12-43a4-491a-b8d4-4b1a1b1f5cbb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "BatteryBoard:NX3008NBKS"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q6"
-				(at 4.064 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NX3008NBKS"
-				(at -11.684 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at -13.97 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
-				(at -13.97 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual N-Channel MOSFET - 2NMOS"
-				(at -13.97 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nexperia USA Inc."
-				(at -13.97 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "NX3008NBKS"
-				(at -13.97 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Proto" "BSS138DWQ-7"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "NX3008NBKS_1_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NX3008NBKS_2_1"
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.905) (xy -1.016 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.508 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 0.508) (xy -0.508 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 2.286) (xy -0.508 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.381 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 1.27 5.08 270)
-					(length 2.54)
-					(name "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 1.27 -5.08 90)
-					(length 2.54)
-					(name "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -666,6 +132,353 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Q_Dual_NMOS_S1G1D2S2G2D1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Q_Dual_NMOS_S1G1D2S2G2D1"
+				(at 19.05 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual NMOS transistor, 6 pin package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOP* SC?70* SC?88* SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NMOS_S1G1D2S2G2D1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1302,12 +1115,6 @@
 		(uuid "33d06e53-d4c5-4fdf-b32c-53fa5a105630")
 	)
 	(junction
-		(at 135.89 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3623c8f7-ec83-46fb-9ed0-e1931ed383fd")
-	)
-	(junction
 		(at 130.81 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1344,6 +1151,12 @@
 		(uuid "8c3c3d59-2f2b-45c6-b2d9-9107cd331d6b")
 	)
 	(junction
+		(at 162.56 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fc8c425-1b61-415e-bc18-49022fd9ec77")
+	)
+	(junction
 		(at 172.72 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1354,6 +1167,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aebd6124-b23f-4d54-b9c8-79740247ea27")
+	)
+	(junction
+		(at 135.89 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a5d5b6-9444-4b17-9a63-529884953186")
 	)
 	(junction
 		(at 128.27 107.95)
@@ -1374,10 +1193,22 @@
 		(uuid "c4b83ab8-0ba0-4918-b7ba-26ef65bd6be6")
 	)
 	(junction
+		(at 120.65 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf1c6576-ebd9-4e37-a594-6f8fed49603a")
+	)
+	(junction
 		(at 170.18 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d985ab81-a2f6-4b30-bf6d-766a2ad61c20")
+	)
+	(junction
+		(at 177.8 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dee68c8b-dfc7-4291-93ee-53a75ad0d013")
 	)
 	(junction
 		(at 130.81 60.96)
@@ -1386,28 +1217,10 @@
 		(uuid "dfa556d9-6675-4eed-803f-df11386a6118")
 	)
 	(junction
-		(at 120.65 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e02d5d23-0f8b-4a5b-8965-138929868da9")
-	)
-	(junction
 		(at 172.72 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f08aa058-702c-4dba-8076-ff2c4315eb4f")
-	)
-	(junction
-		(at 177.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f13cadad-0294-42a9-9e0f-a21591bf7ac0")
-	)
-	(junction
-		(at 162.56 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7a14641-76b8-41d7-bf7f-ce2fc5c6e401")
 	)
 	(wire
 		(pts
@@ -2098,8 +1911,8 @@
 		(uuid "f0cf233f-615a-4f5c-ae07-68e49da3d187")
 	)
 	(symbol
-		(lib_id "BatteryBoard:NX3008NBKS")
-		(at 171.45 99.06 0)
+		(lib_id "Device:Q_Dual_NMOS_S1G1D2S2G2D1")
+		(at 172.72 99.06 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -2108,7 +1921,7 @@
 		(dnp no)
 		(uuid "16c819f4-aa45-49e2-a109-d9b0ae38fc82")
 		(property "Reference" "Q7"
-			(at 167.767 99.06 0)
+			(at 167.386 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +1930,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKS"
-			(at 175.26 104.14 0)
+			(at 176.53 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,37 +1940,34 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 185.42 113.03 0)
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
-			(at 185.42 115.57 0)
+		(property "Datasheet" "~"
+			(at 167.64 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
-			(at 185.42 118.11 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 185.42 120.65 0)
+			(at 186.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +1977,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 185.42 123.19 0)
+			(at 186.69 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +1987,7 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
-			(at 171.45 99.06 0)
+			(at 172.72 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 172.72 66.04 0)
 			(effects
 				(font
@@ -2667,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 130.81 66.04 0)
 			(effects
 				(font
@@ -3216,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10nF +-10% 50V X7R"
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 102.87 0)
 			(effects
 				(font
@@ -3245,8 +3055,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BatteryBoard:NX3008NBKS")
-		(at 129.54 99.06 0)
+		(lib_id "Device:Q_Dual_NMOS_S1G1D2S2G2D1")
+		(at 130.81 99.06 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3255,7 +3065,7 @@
 		(dnp no)
 		(uuid "62c5c1b0-8321-4a39-b706-7d9c3727b6f6")
 		(property "Reference" "Q5"
-			(at 125.476 99.06 0)
+			(at 125.984 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3074,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKS"
-			(at 141.224 111.76 0)
+			(at 142.494 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,37 +3084,34 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 143.51 113.03 0)
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
-			(at 143.51 115.57 0)
+		(property "Datasheet" "~"
+			(at 125.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
-			(at 143.51 118.11 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 143.51 120.65 0)
+			(at 144.78 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3314,7 +3121,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 143.51 123.19 0)
+			(at 144.78 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3131,7 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
-			(at 129.54 99.06 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10nF +-10% 50V X7R"
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 102.87 0)
 			(effects
 				(font
@@ -3583,8 +3390,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BatteryBoard:NX3008NBKS")
-		(at 114.3 93.98 0)
+		(lib_id "Device:Q_Dual_NMOS_S1G1D2S2G2D1")
+		(at 115.57 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3593,7 +3400,7 @@
 		(dnp no)
 		(uuid "79941e77-0991-454a-9d54-3320868d8a18")
 		(property "Reference" "Q5"
-			(at 110.236 93.98 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3409,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKS"
-			(at 125.984 106.68 0)
+			(at 127.254 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,37 +3418,34 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 128.27 107.95 0)
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
-			(at 128.27 110.49 0)
+		(property "Datasheet" "~"
+			(at 110.49 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
-			(at 128.27 113.03 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 128.27 115.57 0)
+			(at 129.54 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +3455,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 128.27 118.11 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3465,7 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
-			(at 114.3 93.98 0)
+			(at 115.57 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3617,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 130.81 83.82 0)
 			(effects
 				(font
@@ -4006,7 +3810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual NPN BJT - 2NPN"
+		(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
 			(at 172.72 83.82 0)
 			(effects
 				(font
@@ -4154,8 +3958,8 @@
 		)
 	)
 	(symbol
-		(lib_id "BatteryBoard:NX3008NBKS")
-		(at 156.21 93.98 0)
+		(lib_id "Device:Q_Dual_NMOS_S1G1D2S2G2D1")
+		(at 157.48 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4164,7 +3968,7 @@
 		(dnp no)
 		(uuid "d6ad6dd1-c65d-4196-bb5f-07c55e3397fa")
 		(property "Reference" "Q7"
-			(at 152.146 93.98 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +3977,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKS"
-			(at 167.894 106.68 0)
+			(at 169.164 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,37 +3986,34 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 170.18 107.95 0)
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
-			(at 170.18 110.49 0)
+		(property "Datasheet" "~"
+			(at 152.4 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
-			(at 170.18 113.03 0)
+		(property "Description" "Dual NMOS transistor, 6 pin package"
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Nexperia USA Inc."
-			(at 170.18 115.57 0)
+			(at 171.45 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4023,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NX3008NBKS"
-			(at 170.18 118.11 0)
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4033,7 @@
 			)
 		)
 		(property "Proto" "BSS138DWQ-7"
-			(at 156.21 93.98 0)
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

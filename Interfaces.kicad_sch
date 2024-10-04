@@ -3914,7 +3914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Connectors:1824543"
+		(property "Footprint" "1824543"
 			(at 96.52 178.74 0)
 			(effects
 				(font

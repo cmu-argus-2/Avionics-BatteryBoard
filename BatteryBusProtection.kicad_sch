@@ -194,30 +194,6 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -2.54) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 6.985 -2.54)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 6.985 -5.08) (xy 8.255 -5.08)
 					)
 					(stroke
@@ -314,7 +290,7 @@
 				)
 				(polyline
 					(pts
-						(xy 6.35 -1.905) (xy 5.08 -2.54) (xy 6.35 -3.175)
+						(xy 5.588 -1.778) (xy 6.858 -2.413) (xy 5.588 -3.048)
 					)
 					(stroke
 						(width 0)
@@ -341,17 +317,6 @@
 					(radius 3.81)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.985 -4.445)
-					(radius 0.0254)
-					(stroke
-						(width 0.508)
 						(type default)
 					)
 					(fill
@@ -522,6 +487,44 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "SIRA99DP-T1-GE3_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -2.286) (xy 6.858 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 -5.08) (xy 7.112 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -1342,6 +1345,12 @@
 		(uuid "0802c6dd-c305-4009-9ce1-189fb1d4c78e")
 	)
 	(junction
+		(at 99.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09893bec-49c6-460f-a72a-4cb48727bf33")
+	)
+	(junction
 		(at 90.17 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1376,6 +1385,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a167131-276b-40e8-af81-cfddd273b26f")
+	)
+	(junction
+		(at 134.62 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1e26a5-c0a3-4a24-8a0c-12b6fe570b33")
 	)
 	(junction
 		(at 109.22 85.09)
@@ -1426,6 +1441,12 @@
 		(uuid "a9c69961-cf10-48da-9efa-b42853cdee3b")
 	)
 	(junction
+		(at 99.06 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afef34d5-9786-4737-a242-f1d71be77bec")
+	)
+	(junction
 		(at 109.22 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1466,6 +1487,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec1ca00d-658b-4e35-a19d-791627aaa218")
+	)
+	(junction
+		(at 134.62 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f80db80a-1573-4a21-81a4-0e13ea76f4e3")
 	)
 	(junction
 		(at 116.84 120.65)
@@ -1561,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 85.09) (xy 124.46 85.09)
+			(xy 152.4 85.09) (xy 134.62 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1681,6 +1708,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 85.09) (xy 134.62 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4354250c-2edb-4c15-9675-a8164ac5b1fb")
+	)
+	(wire
+		(pts
 			(xy 74.93 85.09) (xy 74.93 87.63)
 		)
 		(stroke
@@ -1718,6 +1755,16 @@
 			(type default)
 		)
 		(uuid "49a2b67b-3bc1-4746-aae8-37213a7a1d0a")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 99.06 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7b56cb-5092-49cd-822f-dc9a908c763a")
 	)
 	(wire
 		(pts
@@ -1921,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 161.29) (xy 109.22 161.29)
+			(xy 90.17 161.29) (xy 99.06 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2001,6 +2048,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab75c7e-6e24-4dbf-a051-288a39892579")
+	)
+	(wire
+		(pts
 			(xy 76.2 105.41) (xy 85.09 105.41)
 		)
 		(stroke
@@ -2038,6 +2095,16 @@
 			(type default)
 		)
 		(uuid "a60b900b-ec01-469a-8ed0-d391b2c91b0d")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 109.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a73f8df9-9d18-4588-af7e-59dff97ca54c")
 	)
 	(wire
 		(pts
@@ -2482,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -2635,7 +2702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
 			(at 114.3 92.71 0)
 			(effects
 				(font
@@ -3221,7 +3288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
 			(at 119.38 168.91 0)
 			(effects
 				(font
@@ -3391,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Argus-Misc:MOSFET_7DP-T1-GE3_VIS"
+		(property "Footprint" "MOSFET_7DP-T1-GE3_VIS"
 			(at 80.01 168.91 0)
 			(effects
 				(font
