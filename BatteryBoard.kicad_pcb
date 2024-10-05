@@ -13652,7 +13652,7 @@
 		(descr "Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0100, 10 Circuits (https://www.molex.com/pdm_docs/sd/2005280100_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex  top entry")
 		(property "Reference" "J10"
-			(at 0 2.61 90)
+			(at 0 -1.39 90)
 			(layer "B.SilkS")
 			(uuid "bc2aed50-e5f0-4f87-9be8-361e4af4b78f")
 			(effects
@@ -35038,6 +35038,16 @@
 			)
 		)
 	)
+	(gr_line
+		(start 106.6176 94.2304)
+		(end 106.6176 105)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "13996ccc-2bd7-4d01-b79a-b52df40246c6")
+	)
 	(gr_rect
 		(start 96.5 111)
 		(end 116 117.5)
@@ -35048,6 +35058,26 @@
 		(fill solid)
 		(layer "B.SilkS")
 		(uuid "76b021d6-c170-42e9-b09a-292505111683")
+	)
+	(gr_line
+		(start 106.6176 105)
+		(end 105.5 105)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "93f2dda9-73ed-4a4d-8251-45b4ff3575c0")
+	)
+	(gr_line
+		(start 106.6176 94.2304)
+		(end 105.5 94.2304)
+		(stroke
+			(width 0.127)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "aa0be48d-8466-435c-893c-25de25ac237a")
 	)
 	(gr_arc
 		(start 95.3165 53.5)
@@ -35213,6 +35243,70 @@
 		(layer "Edge.Cuts")
 		(uuid "d75f9df6-c822-4d2b-ba79-2507f40d342b")
 	)
+	(gr_text "3.3V"
+		(at 104.1665 95.1194 0)
+		(layer "B.SilkS")
+		(uuid "0107398e-26eb-47fa-adc1-e7de8846a356")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 104.1665 97.126 0)
+		(layer "B.SilkS")
+		(uuid "0a637659-1c93-4ceb-a883-6cfe7edda19c")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 104.1665 98.1166 0)
+		(layer "B.SilkS")
+		(uuid "0db18fb3-e24d-4b0e-8d84-5b4d44373433")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 104.1665 99.1326 0)
+		(layer "B.SilkS")
+		(uuid "1c3e5f7b-bff5-4b9e-a249-09e6febbeef1")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "MAINBOARD"
+		(at 97 99.5 90)
+		(layer "B.SilkS")
+		(uuid "3bf9046c-e381-40bb-bc2b-0b8db892806e")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.1016)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "ARGUS-2\nCMU Cubesat\nBatteryBoard v1"
 		(at 109 88.5 0)
 		(layer "B.SilkS")
@@ -35224,6 +35318,84 @@
 				(italic yes)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "3.3V"
+		(at 104.1665 96.11 0)
+		(layer "B.SilkS")
+		(uuid "50cc2a5b-842c-4e66-a768-034306ce8bc6")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 104.1665 102.1298 0)
+		(layer "B.SilkS")
+		(uuid "a669ef8d-c6b3-4a8c-b209-6f309eed62a4")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 104.1665 104.111 0)
+		(layer "B.SilkS")
+		(uuid "c610e84f-ded8-4b85-ae47-16b8743e42e3")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "SDA"
+		(at 104.1665 100.1232 0)
+		(layer "B.SilkS")
+		(uuid "d0d1ccc9-5003-4bbc-8441-ca28b7b8b383")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 104.1665 103.1204 0)
+		(layer "B.SilkS")
+		(uuid "efdd8bec-13bc-44c8-a6eb-666bb1343991")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
+		)
+	)
+	(gr_text "ALRT"
+		(at 104.1665 101.1392 0)
+		(layer "B.SilkS")
+		(uuid "f755a864-ce19-458e-9765-abad7b7af5bb")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+			(justify right mirror)
 		)
 	)
 	(segment
