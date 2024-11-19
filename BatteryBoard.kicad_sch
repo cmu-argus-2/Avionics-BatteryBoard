@@ -4,6 +4,15 @@
 	(generator_version "8.0")
 	(uuid "b6fd875d-6e05-4440-9a05-0f0aa046a0ef")
 	(paper "A4")
+	(title_block
+		(title "Argus Batteryboard")
+		(date "2024-11-19")
+		(rev "v2.1")
+		(company "Carnegie Mellon University")
+		(comment 1 "M. Holliday")
+		(comment 2 "N. Khera")
+		(comment 3 "V. Rajesh")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
