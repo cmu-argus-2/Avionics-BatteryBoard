@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -438,8 +438,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -465,14 +465,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.0762,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.6096,
+        "microvia_drill": 0.3048,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.2032,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
         "wire_width": 6
       }
     ],
@@ -663,6 +663,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -692,7 +700,7 @@
       "Battery Bus Protection"
     ],
     [
-      "373aac7a-a9e9-4f16-b8d8-0702cc1ac0e6",
+      "8631bf3a-5019-45d5-a8fe-6e53ccedb3c2",
       "I2C Protection"
     ],
     [
@@ -700,7 +708,7 @@
       "Battery Temperature Protection"
     ],
     [
-      "35431358-a3d5-4c84-bb94-0496c063e907",
+      "b948d429-f108-462e-8f18-75ba0a87c593",
       "I2C Protection1"
     ],
     [
@@ -708,8 +716,8 @@
       "IO Expander"
     ],
     [
-      "b0261011-2adb-4b34-9815-14af15ff5ea4",
-      "Battery Temperature Protection1"
+      "efd94f27-a1dd-4af9-8d35-809f16432fd2",
+      "BatteryHeater1"
     ],
     [
       "e0cf694e-e610-403b-8199-ed27af9d964d",
@@ -718,6 +726,10 @@
     [
       "929ad239-5e24-4db1-ba18-c148cf561726",
       "Battery"
+    ],
+    [
+      "95738717-905b-497b-9774-63ac446a9107",
+      "BatteryHeater"
     ]
   ],
   "text_variables": {}
