@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2024-12-06")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")

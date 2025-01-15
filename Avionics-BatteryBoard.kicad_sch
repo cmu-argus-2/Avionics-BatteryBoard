@@ -6,14 +6,116 @@
 	(paper "USLetter")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2024-12-06")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
 		(comment 3 "V. Rajesh")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -232,22 +334,10 @@
 		(uuid "23eff778-3297-4306-b005-729e76e6119b")
 	)
 	(junction
-		(at 208.28 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6ac9ec62-5f5e-4b05-96a8-0c347b1d8d0f")
-	)
-	(junction
 		(at 66.04 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85212c77-2d48-4939-a5ac-bd13377bf811")
-	)
-	(junction
-		(at 203.2 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "977645f9-27cc-48a7-9139-8967716ea0b0")
 	)
 	(junction
 		(at 255.27 140.97)
@@ -260,20 +350,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa945532-23aa-4550-909b-90eec9411ce4")
-	)
-	(no_connect
-		(at 170.18 77.47)
-		(uuid "42adbb74-7778-44bb-9086-db3760ee040b")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 203.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "086270a7-3229-4263-bd12-5ba0b9af94a4")
 	)
 	(wire
 		(pts
@@ -317,6 +393,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 99.06) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8f82bf-e6c6-4e3e-9326-a332c6ebc058")
+	)
+	(wire
+		(pts
 			(xy 62.23 114.3) (xy 119.38 114.3)
 		)
 		(stroke
@@ -327,6 +413,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 104.14) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5cf4f3-e195-4127-a3db-4dce95e2e983")
+	)
+	(wire
+		(pts
 			(xy 106.68 99.06) (xy 119.38 99.06)
 		)
 		(stroke
@@ -334,6 +430,16 @@
 			(type default)
 		)
 		(uuid "2dd3ff31-f1c1-4a17-ac67-f32d310f95e1")
+	)
+	(wire
+		(pts
+			(xy 157.48 99.06) (xy 158.75 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308598b7-b56f-4afe-996b-42e27241bc93")
 	)
 	(wire
 		(pts
@@ -357,16 +463,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 57.15) (xy 170.18 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f928860-ff25-4827-af30-654a6567267d")
-	)
-	(wire
-		(pts
 			(xy 55.88 93.98) (xy 62.23 93.98)
 		)
 		(stroke
@@ -377,7 +473,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 214.63 109.22)
+			(xy 157.48 109.22) (xy 185.42 109.22)
 		)
 		(stroke
 			(width 0)
@@ -387,7 +483,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 170.18 67.31)
+			(xy 157.48 67.31) (xy 176.53 67.31)
 		)
 		(stroke
 			(width 0)
@@ -407,16 +503,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 170.18 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b167e50-8318-4e7a-83b7-174ac6d9cdd4")
-	)
-	(wire
-		(pts
 			(xy 66.04 88.9) (xy 68.58 88.9)
 		)
 		(stroke
@@ -424,16 +510,6 @@
 			(type default)
 		)
 		(uuid "5c647fe1-eceb-4849-bc43-ed65b34623b8")
-	)
-	(wire
-		(pts
-			(xy 195.58 72.39) (xy 208.28 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61017218-6485-42a4-bb3a-31deb5f6c677")
 	)
 	(wire
 		(pts
@@ -447,7 +523,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 170.18 52.07)
+			(xy 157.48 62.23) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
@@ -457,17 +533,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 72.39) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d829bee-b886-4b7d-a8d1-5a7851ec9607")
-	)
-	(wire
-		(pts
-			(xy 208.28 114.3) (xy 214.63 114.3)
+			(xy 157.48 114.3) (xy 185.42 114.3)
 		)
 		(stroke
 			(width 0)
@@ -477,23 +543,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 119.38) (xy 214.63 119.38)
+			(xy 181.61 93.98) (xy 181.61 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "809fb59c-76d3-4a75-85ac-544735d9bae8")
-	)
-	(wire
-		(pts
-			(xy 157.48 82.55) (xy 170.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e63b1b1-7c8b-4bac-bce4-ad2ece82d2c4")
+		(uuid "8861e2d3-1d16-43de-a7e3-754215a5d947")
 	)
 	(wire
 		(pts
@@ -517,36 +573,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 77.47) (xy 203.2 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9512e613-376a-415e-8ef8-1d2ab14496cf")
-	)
-	(wire
-		(pts
-			(xy 157.48 114.3) (xy 208.28 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "971d8841-12d2-4136-a7e2-5a6278d04f88")
-	)
-	(wire
-		(pts
-			(xy 157.48 62.23) (xy 170.18 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb4079b-c982-4707-a4d5-ab17b59c41f0")
-	)
-	(wire
-		(pts
 			(xy 58.42 99.06) (xy 68.58 99.06)
 		)
 		(stroke
@@ -567,6 +593,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.14) (xy 172.72 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a631d570-6133-48a0-a252-ecce99b9f188")
+	)
+	(wire
+		(pts
 			(xy 66.04 88.9) (xy 66.04 109.22)
 		)
 		(stroke
@@ -577,7 +613,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 170.18 72.39)
+			(xy 157.48 72.39) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -587,7 +623,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38) (xy 203.2 119.38)
+			(xy 157.48 119.38) (xy 185.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -604,6 +640,16 @@
 			(type default)
 		)
 		(uuid "ba77c61a-3e37-4876-8496-79e56301fdd5")
+	)
+	(wire
+		(pts
+			(xy 185.42 93.98) (xy 181.61 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6a2fe1-b182-449d-9dab-30101f6c11e3")
 	)
 	(wire
 		(pts
@@ -637,6 +683,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 67.31) (xy 176.53 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfad35bc-cf8e-4bdc-9bfd-03d5dbfb3c74")
+	)
+	(wire
+		(pts
 			(xy 252.73 134.62) (xy 255.27 134.62)
 		)
 		(stroke
@@ -644,6 +700,16 @@
 			(type default)
 		)
 		(uuid "e124698c-b33c-49d8-8844-a68ea6042bc3")
+	)
+	(wire
+		(pts
+			(xy 157.48 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8965c3-ec68-4f1f-b04e-004cb38f56da")
 	)
 	(wire
 		(pts
@@ -665,27 +731,71 @@
 		)
 		(uuid "f7b1449e-4fbc-49f8-8df8-2e3055b2ed2b")
 	)
-	(text "Could put ALERT ON IO5"
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 99.06 270)
+		(unit 1)
 		(exclude_from_sim no)
-		(at 161.798 125.984 0)
-		(effects
-			(font
-				(size 2.54 2.54)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0783e9df-9bbe-4166-8a58-87d419244d9f")
+		(property "Reference" "TP2"
+			(at 163.322 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left)
 		)
-		(uuid "189d2117-83bf-4c57-8577-ca55ce7f376a")
-	)
-	(text "Could put all GPIO ON FPC"
-		(exclude_from_sim no)
-		(at 161.798 131.064 0)
-		(effects
-			(font
-				(size 2.54 2.54)
+		(property "Value" "TestPoint"
+			(at 163.322 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
-			(justify left)
 		)
-		(uuid "c04f774b-efdb-4943-947e-f1fa16cf3162")
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f8d6e3-f79f-4665-90f0-99e001d6c0a5")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -981,6 +1091,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 158.75 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e820752b-3753-40c2-8cac-7ace56b3011a")
+		(property "Reference" "TP1"
+			(at 163.322 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 163.322 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 158.75 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e8870f1-36e0-4066-9b8e-2153933b3a2c")
+		)
+		(instances
+			(project ""
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 250.19 134.62 90)
 		(mirror x)
@@ -1087,7 +1263,7 @@
 			)
 		)
 		(pin "DISCHARGE_ACTIVE" output
-			(at 157.48 87.63 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1283,7 @@
 			(uuid "8d0ca461-1b43-4bbe-83a1-48152992474f")
 		)
 		(pin "CHARGE_ACTIVE" output
-			(at 157.48 82.55 0)
+			(at 157.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,7 +1313,7 @@
 			(uuid "0f6f16c5-7cfb-4d09-8ff2-81bccc0338df")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "4")
 				)
@@ -1225,7 +1401,7 @@
 			(uuid "0dec78d0-bd39-435e-87ad-46fbb3033841")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "2")
 				)
@@ -1233,8 +1409,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 49.53)
-		(size 38.1 25.4)
+		(at 119.38 59.69)
+		(size 38.1 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1245,7 +1421,7 @@
 		)
 		(uuid "8b9e55cd-928e-4578-a188-133f4642b05f")
 		(property "Sheetname" "Battery Temperature Protection"
-			(at 119.38 48.8184 0)
+			(at 119.38 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,17 +1438,7 @@
 				(justify left top)
 			)
 		)
-		(pin "HEATER_ENABLE1" input
-			(at 157.48 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0b1710b4-908f-4a96-8445-d51b902a6f05")
-		)
-		(pin "HEATER_ENABLE0" input
+		(pin "HEATER0_ON" input
 			(at 157.48 67.31 0)
 			(effects
 				(font
@@ -1280,9 +1446,19 @@
 				)
 				(justify right)
 			)
-			(uuid "a4292aed-6747-4e9e-959a-b1a14ae9a32a")
+			(uuid "dde05ff9-cb4e-4dd7-950f-f8051672f664")
 		)
-		(pin "CB-RESET" input
+		(pin "HEATER1_ON" input
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "310c118f-6835-48d7-9e47-636f3fbdeb68")
+		)
+		(pin "HEATER_ENABLE" input
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -1290,30 +1466,10 @@
 				)
 				(justify right)
 			)
-			(uuid "959d2075-7cde-4afb-9b81-6cdebb29d0db")
-		)
-		(pin "~{FAULT}" output
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "949c1baf-7987-4c89-89ff-8712178bd308")
-		)
-		(pin "ON{slash}~{OFF}" input
-			(at 157.48 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6455bb55-c5ac-4c8a-8a43-fc8ebb35d4ce")
+			(uuid "05adfbd3-9715-4be5-814a-6b5f18513e2c")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "6")
 				)
@@ -1381,7 +1537,7 @@
 			(uuid "9395a8ad-e3e1-4051-bed8-e34e1d034e4e")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "11")
 				)
@@ -1479,7 +1635,7 @@
 			(uuid "a3a17853-3996-4ce3-822d-1b98202d254d")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "3")
 				)
@@ -1487,8 +1643,8 @@
 		)
 	)
 	(sheet
-		(at 214.63 106.68)
-		(size 27.94 15.24)
+		(at 185.42 90.932)
+		(size 27.94 30.988)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1499,7 +1655,7 @@
 		)
 		(uuid "e0cf694e-e610-403b-8199-ed27af9d964d")
 		(property "Sheetname" "Interfaces"
-			(at 214.63 105.9684 0)
+			(at 185.42 90.2204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +1664,7 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 214.63 122.5046 0)
+			(at 185.42 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1517,7 +1673,7 @@
 			)
 		)
 		(pin "SDA_BUS" bidirectional
-			(at 214.63 114.3 180)
+			(at 185.42 114.3 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1683,7 @@
 			(uuid "82c1e11f-646f-4cdd-9fa2-8cbfe37265d4")
 		)
 		(pin "SCL_BUS" bidirectional
-			(at 214.63 119.38 180)
+			(at 185.42 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1537,7 +1693,7 @@
 			(uuid "93c5d24d-bd27-4989-8720-1464c64c865d")
 		)
 		(pin "ALERT" input
-			(at 214.63 109.22 180)
+			(at 185.42 109.22 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,148 +1702,40 @@
 			)
 			(uuid "ac534290-4223-4717-9239-95fbeb6b4934")
 		)
+		(pin "HEATER_ENABLE" output
+			(at 185.42 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "413d9b15-7948-4881-844e-e532d6dd73de")
+		)
+		(pin "HEAT0_ON" output
+			(at 185.42 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b427235c-912c-451f-abb8-be1fc1e04e0d")
+		)
+		(pin "HEAT1_ON" output
+			(at 185.42 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aebb3eec-11cf-4fc7-8f86-68bef274ce1f")
+		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 49.53)
-		(size 25.4 40.64)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e121e58f-b773-45d1-af83-1cd1570c2804")
-		(property "Sheetname" "IO Expander"
-			(at 170.18 48.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "IOExpander.kicad_sch"
-			(at 170.18 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SDA_IO" bidirectional
-			(at 195.58 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "41b38aed-6827-436e-985e-2068dd669c62")
-		)
-		(pin "SCL_IO" bidirectional
-			(at 195.58 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0f66f712-6f13-4c46-8638-374c9e6b7e88")
-		)
-		(pin "IO0" bidirectional
-			(at 170.18 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2c426fdf-717e-467f-aaf7-27e45509fe03")
-		)
-		(pin "IO1" bidirectional
-			(at 170.18 57.15 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "804d2845-31ce-4a7b-ad04-3563c8a9bea6")
-		)
-		(pin "IO2" bidirectional
-			(at 170.18 62.23 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "df9f3185-513c-42e2-90f1-303bff5a5d40")
-		)
-		(pin "IO3" bidirectional
-			(at 170.18 67.31 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3d8d4020-2696-48a6-84ba-7019885607ca")
-		)
-		(pin "IO4" bidirectional
-			(at 170.18 72.39 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ffc1bbb3-1500-4ceb-8fb8-d86c2a593e2c")
-		)
-		(pin "IO6" bidirectional
-			(at 170.18 82.55 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "624fd22f-eec0-4c04-a414-0f2ec64763aa")
-		)
-		(pin "IO5" bidirectional
-			(at 170.18 77.47 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e88944f2-6e77-4d2c-8ef1-c0b0a28ea96d")
-		)
-		(pin "IO7" bidirectional
-			(at 170.18 87.63 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e71a2da4-862c-40c1-b809-a01ed3f4e87c")
-		)
-		(instances
-			(project "BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(page "8")
 				)
 			)
 		)

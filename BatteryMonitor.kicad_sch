@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2024-12-06")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -4796,7 +4796,7 @@
 			(uuid "25066657-270a-4e75-a06f-8dec31dfe6a4")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae"
 					(page "5")
 				)

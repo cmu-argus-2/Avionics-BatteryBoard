@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2024-12-06")
-		(rev "v2.1")
+		(date "2025-01-08")
+		(rev "v3.0")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -2038,10 +2038,6 @@
 					(reference "Q17")
 					(unit 2)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q21")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -2158,10 +2154,6 @@
 					(reference "Q18")
 					(unit 2)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q22")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -2225,10 +2217,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR08")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2296,10 +2284,6 @@
 					(reference "#PWR06")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR016")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2320,7 +2304,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 144.78 147.193 90)
 			(effects
 				(font
@@ -2374,10 +2358,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R72")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -2443,10 +2423,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR02")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2565,10 +2541,6 @@
 					(reference "Q16")
 					(unit 2)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q20")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -2636,10 +2608,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R70")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -2711,10 +2679,6 @@
 					(reference "R66")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R85")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2784,10 +2748,6 @@
 					(reference "R61")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R80")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2855,10 +2815,6 @@
 					(reference "R68")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R87")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2924,10 +2880,6 @@
 					(reference "#PWR07")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR017")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2991,10 +2943,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3064,10 +3012,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "C15")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3182,10 +3126,6 @@
 					(reference "Q15")
 					(unit 2)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q19")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -3253,10 +3193,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R69")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -3328,10 +3264,6 @@
 					(reference "R67")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R86")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3399,10 +3331,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "C14")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3516,10 +3444,6 @@
 					(reference "Q15")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q19")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3583,10 +3507,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3705,10 +3625,6 @@
 					(reference "Q16")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q20")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3776,10 +3692,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R65")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -3898,10 +3810,6 @@
 					(reference "Q18")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q22")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3967,10 +3875,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R63")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -4084,10 +3988,6 @@
 					(reference "Q17")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "Q21")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4157,10 +4057,6 @@
 					(reference "R62")
 					(unit 1)
 				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R81")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4181,7 +4077,7 @@
 				)
 			)
 		)
-		(property "Value" "DNI (0R)"
+		(property "Value" "0R"
 			(at 144.78 139.446 90)
 			(effects
 				(font
@@ -4235,10 +4131,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R71")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -4308,10 +4200,6 @@
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R64")
-					(unit 1)
-				)
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/e121e58f-b773-45d1-af83-1cd1570c2804/b948d429-f108-462e-8f18-75ba0a87c593"
-					(reference "R83")
 					(unit 1)
 				)
 			)

@@ -453,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BatteryBoard.kicad_pro",
+    "filename": "Avionics-BatteryBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -706,14 +706,6 @@
     [
       "8b9e55cd-928e-4578-a188-133f4642b05f",
       "Battery Temperature Protection"
-    ],
-    [
-      "b948d429-f108-462e-8f18-75ba0a87c593",
-      "I2C Protection1"
-    ],
-    [
-      "e121e58f-b773-45d1-af83-1cd1570c2804",
-      "IO Expander"
     ],
     [
       "efd94f27-a1dd-4af9-8d35-809f16432fd2",
