@@ -731,6 +731,16 @@
 		)
 		(uuid "f7b1449e-4fbc-49f8-8df8-2e3055b2ed2b")
 	)
+	(text "EXTERNAL INTERFACES"
+		(exclude_from_sim no)
+		(at 216.662 106.68 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "97acef82-6d16-49dd-aca0-198f2467c104")
+	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 158.75 99.06 270)
@@ -1712,17 +1722,7 @@
 			)
 			(uuid "413d9b15-7948-4881-844e-e532d6dd73de")
 		)
-		(pin "HEAT0_ON" output
-			(at 185.42 99.06 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b427235c-912c-451f-abb8-be1fc1e04e0d")
-		)
-		(pin "HEAT1_ON" output
+		(pin "HEATER1_ON" output
 			(at 185.42 104.14 180)
 			(effects
 				(font
@@ -1730,7 +1730,17 @@
 				)
 				(justify left)
 			)
-			(uuid "aebb3eec-11cf-4fc7-8f86-68bef274ce1f")
+			(uuid "864fca4d-3411-4252-ac6a-f1cf84f040e0")
+		)
+		(pin "HEATER0_ON" output
+			(at 185.42 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "502ea970-161d-48ca-b07c-51573ebca8cd")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"

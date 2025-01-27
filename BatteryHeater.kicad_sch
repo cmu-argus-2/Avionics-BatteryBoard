@@ -19,7 +19,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q10"
+			(property "Reference" "Q23"
 				(at 2.54 1.27 0)
 				(effects
 					(font
@@ -300,6 +300,138 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1224,16 +1356,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 76.2) (xy 113.03 83.82)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1c1eb0d4-e1ce-4746-bbaa-d2aed8d483ac")
-	)
-	(wire
-		(pts
 			(xy 167.64 83.82) (xy 142.24 83.82)
 		)
 		(stroke
@@ -1434,6 +1556,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 73.66) (xy 113.03 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c691d142-4fba-4ec0-ad27-52ef558e6683")
+	)
+	(wire
+		(pts
 			(xy 200.66 83.82) (xy 184.15 83.82)
 		)
 		(stroke
@@ -1532,6 +1664,16 @@
 		)
 		(uuid "fc5b42f5-897e-4de7-8c4b-148eb797e6f3")
 	)
+	(wire
+		(pts
+			(xy 113.03 81.28) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe713f5d-2ee9-4032-8dd2-c5df1964fb51")
+	)
 	(rectangle
 		(start 177.292 85.852)
 		(end 189.738 117.348)
@@ -1570,7 +1712,6 @@
 	)
 	(label "V_HEATER"
 		(at 147.32 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1582,7 +1723,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 80.01 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2544,8 +2684,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 113.03 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0626af5-a7c2-4dad-acd9-471d59ce934b")
+		(property "Reference" "F11"
+			(at 111.76 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2A"
+			(at 111.506 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b80aabdb-e5f6-4d72-80e9-cd3de1c61ff7")
+		)
+		(pin "2"
+			(uuid "0d99b529-0998-423d-98d4-ec8eb7ff3893")
+		)
+		(instances
+			(project ""
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/95738717-905b-497b-9774-63ac446a9107"
+					(reference "F11")
+					(unit 1)
+				)
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/8b9e55cd-928e-4578-a188-133f4642b05f/efd94f27-a1dd-4af9-8d35-809f16432fd2"
+					(reference "F10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
-		(at 113.03 76.2 0)
+		(at 113.03 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2553,7 +2766,7 @@
 		(dnp no)
 		(uuid "a60b956b-a4ab-4bd1-87a6-8373e18542a9")
 		(property "Reference" "#PWR015"
-			(at 113.03 80.01 0)
+			(at 113.03 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2775,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 113.03 72.644 0)
+			(at 113.03 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 76.2 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 76.2 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 113.03 76.2 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3338,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 113.03 88.9 180)
+		(at 113.03 88.9 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,7 +3347,7 @@
 		(dnp no)
 		(uuid "e20adaf3-012e-475c-9615-fe186942c4db")
 		(property "Reference" "R16"
-			(at 118.11 87.122 0)
+			(at 107.95 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3142,7 +3356,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 117.856 89.154 0)
+			(at 108.204 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)

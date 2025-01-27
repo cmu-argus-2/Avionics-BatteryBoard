@@ -1836,7 +1836,6 @@
 	(hierarchical_label "SCL_BUS"
 		(shape bidirectional)
 		(at 139.7 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1848,7 +1847,6 @@
 	(hierarchical_label "SDA_BUS"
 		(shape bidirectional)
 		(at 163.83 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1860,7 +1858,6 @@
 	(hierarchical_label "SDA_DEVICE"
 		(shape bidirectional)
 		(at 180.34 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1872,7 +1869,6 @@
 	(hierarchical_label "SCL_DEVICE"
 		(shape bidirectional)
 		(at 149.86 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1884,7 +1880,6 @@
 	(hierarchical_label "SCL_BUS"
 		(shape bidirectional)
 		(at 121.92 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,7 +1891,6 @@
 	(hierarchical_label "SDA_DEVICE"
 		(shape bidirectional)
 		(at 149.86 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1908,7 +1902,6 @@
 	(hierarchical_label "SCL_DEVICE"
 		(shape bidirectional)
 		(at 138.43 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1920,7 +1913,6 @@
 	(hierarchical_label "SDA_BUS"
 		(shape bidirectional)
 		(at 139.7 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

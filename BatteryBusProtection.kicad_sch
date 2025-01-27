@@ -149,7 +149,7 @@
 				)
 			)
 		)
-		(symbol "Device:Polyfuse"
+		(symbol "Device:Fuse"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -158,15 +158,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at -2.54 0 90)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Polyfuse"
-				(at 2.54 0 90)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -174,12 +174,11 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -5.08 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -192,7 +191,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(property "Description" "Fuse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -201,7 +200,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+			(property "ki_keywords" "fuse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -210,7 +209,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*polyfuse* *PTC*"
+			(property "ki_fp_filters" "*Fuse*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -219,10 +218,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Polyfuse_0_1"
+			(symbol "Fuse_0_1"
 				(rectangle
-					(start -0.762 2.54)
-					(end 0.762 -2.54)
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -243,20 +242,8 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "Polyfuse_1_1"
+			(symbol "Fuse_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2086,7 +2073,6 @@
 	(hierarchical_label "BATT_P"
 		(shape bidirectional)
 		(at 90.17 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2098,7 +2084,6 @@
 	(hierarchical_label "DISCHARGE_ACTIVE"
 		(shape output)
 		(at 198.12 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2110,7 +2095,6 @@
 	(hierarchical_label "CHARGE_ACTIVE"
 		(shape output)
 		(at 116.84 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2122,7 +2106,6 @@
 	(hierarchical_label "DISCHARGE_EN"
 		(shape input)
 		(at 119.38 130.81 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2134,7 +2117,6 @@
 	(hierarchical_label "CHARGE_EN"
 		(shape input)
 		(at 133.35 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2506,7 +2488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
+		(lib_id "Device:Fuse")
 		(at 113.03 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2515,7 +2497,7 @@
 		(dnp no)
 		(uuid "4fe5fef8-43a2-40d2-9f09-f9c77e8d73ef")
 		(property "Reference" "F8"
-			(at 113.03 105.664 90)
+			(at 113.03 106.172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2505,7 @@
 			)
 		)
 		(property "Value" "6A"
-			(at 113.03 107.696 90)
+			(at 113.03 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,12 +2513,11 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 107.95 111.76 0)
+			(at 113.03 108.712 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2549,13 +2530,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "Fuse"
 			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 113.03 112.776 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2644,7 +2633,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Polyfuse")
+		(lib_id "Device:Fuse")
 		(at 113.03 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2653,7 +2642,7 @@
 		(dnp no)
 		(uuid "7d8d8d77-fba0-408b-a7cc-dd72e74ed0b9")
 		(property "Reference" "F7"
-			(at 113.03 41.148 90)
+			(at 113.03 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2650,7 @@
 			)
 		)
 		(property "Value" "6A"
-			(at 113.03 43.18 90)
+			(at 113.03 43.434 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,12 +2658,11 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 118.11 44.45 0)
+			(at 113.03 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -2687,13 +2675,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+		(property "Description" "Fuse"
 			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 113.03 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
