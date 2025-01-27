@@ -3,7 +3,16 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "67f1ccc8-bc57-4eb8-8331-f775885ef8b7")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Argus Batteryboard")
+		(date "2025-01-08")
+		(rev "v3.0")
+		(company "Carnegie Mellon University")
+		(comment 1 "M. Holliday")
+		(comment 2 "N. Khera")
+		(comment 3 "V. Rajesh")
+	)
 	(lib_symbols
 		(symbol "Argus-Misc:Keystone-1042"
 			(exclude_from_sim no)
@@ -246,31 +255,33 @@
 				)
 			)
 		)
-		(symbol "Device:D_Schottky"
+		(symbol "Device:D_Schottky_Small"
 			(pin_numbers hide)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at -1.27 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
+			(property "Value" "D_Schottky_Small"
+				(at -7.112 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -279,7 +290,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -287,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" "Schottky diode, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -314,10 +325,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Schottky_Small_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -0.762 0) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -329,7 +340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -341,7 +352,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -352,10 +363,10 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "D_Schottky_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
+					(at -2.54 0 0)
+					(length 1.778)
 					(name "K"
 						(effects
 							(font
@@ -372,8 +383,8 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
+					(at 2.54 0 180)
+					(length 1.778)
 					(name "A"
 						(effects
 							(font
@@ -525,88 +536,98 @@
 		)
 	)
 	(junction
-		(at 120.65 124.46)
+		(at 138.43 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "003f6256-9df4-4b80-bce9-732df9066c67")
+		(uuid "1302e521-fef6-4698-a0e8-27715d47d7b9")
 	)
 	(junction
-		(at 133.35 124.46)
+		(at 102.87 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "153f9b3e-a21e-49c3-8384-31bc5bfe5cee")
+		(uuid "247fd453-9e22-41d6-bebf-7ee42dfdceb0")
 	)
 	(junction
-		(at 146.05 93.98)
+		(at 173.99 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "29634869-e698-445c-8856-d5a3c723dbaa")
+		(uuid "33e931ad-3024-4cde-9cb9-8122695b90f6")
 	)
 	(junction
-		(at 133.35 66.04)
+		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "313ece8d-15f8-4748-8e7f-04674d6fae61")
+		(uuid "34ff2096-05c8-4d5f-a8fa-1755b203c9ac")
 	)
 	(junction
-		(at 120.65 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f97ce09-4d9e-4398-b4c4-6f2c3720374a")
-	)
-	(junction
-		(at 120.65 93.98)
+		(at 138.43 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f3c7c25-9451-471f-8043-94164d2be0ae")
 	)
 	(junction
-		(at 146.05 69.85)
+		(at 173.99 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b9a7aeb-b053-4edf-9b06-1426088bc15d")
+		(uuid "82840c6d-c796-4511-8400-1f115767f81d")
 	)
 	(junction
-		(at 133.35 93.98)
+		(at 138.43 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3ec6230-2146-400d-a329-e78dec813044")
+		(uuid "ac9beabd-605f-4092-ab1d-8d7fb4077d7e")
 	)
 	(junction
-		(at 110.49 93.98)
+		(at 102.87 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beef78e9-5eca-49a7-9130-d8562158937e")
+	)
+	(junction
+		(at 173.99 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df76c32b-6c3c-4a3d-be22-ed9f2b41d475")
+	)
+	(junction
+		(at 138.43 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e46f65cb-7c5f-4bd6-b1e5-1a4bbdd879b0")
 	)
-	(junction
-		(at 146.05 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeb272a4-3c17-476e-8402-09f14413441d")
-	)
 	(wire
 		(pts
-			(xy 175.26 100.33) (xy 193.04 100.33)
+			(xy 138.43 106.68) (xy 138.43 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0af0f45f-db3c-441a-8b42-0f6ae0e840cd")
+		(uuid "01fbeecb-84e9-4229-bb7c-86394c5802ec")
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 133.35 124.46)
+			(xy 102.87 95.25) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d8ddcfa-9a25-4009-8544-0157f69b817a")
+		(uuid "07cf092c-85fb-4137-8ae0-e50505371463")
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 110.49 93.98)
+			(xy 173.99 85.09) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3ae9a9-57cc-4f46-bb9b-cddeea1939ea")
+	)
+	(wire
+		(pts
+			(xy 134.62 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -616,67 +637,57 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 124.46) (xy 146.05 124.46)
+			(xy 138.43 118.11) (xy 138.43 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a8ea784-ddcf-4b64-b8fe-9f750a1f9315")
+		(uuid "1b49132e-f01a-48f5-b66b-fd768929b2aa")
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 137.16 66.04)
+			(xy 173.99 95.25) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2101bb49-e1e8-43d8-946e-b3f0d16e1b29")
+		(uuid "25b67dc1-ff56-4322-825d-f048219f53c6")
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 120.65 124.46)
+			(xy 102.87 85.09) (xy 102.87 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25de54d1-63e9-40ec-aea9-be152650d2a8")
+		(uuid "26ea9d8d-596e-41d7-8574-2a4a1033cf7a")
 	)
 	(wire
 		(pts
-			(xy 110.49 66.04) (xy 113.03 66.04)
+			(xy 170.18 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dd5bb60-94a9-4713-a1d4-49d0a7512ad9")
+		(uuid "2c250436-961b-4dfc-bd94-189ff30fb71a")
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 146.05 118.11)
+			(xy 170.18 106.68) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "396efa98-9c4b-48a9-9d85-7ba4553044bb")
+		(uuid "38e113e4-e975-4daa-8de2-49f60bc73e43")
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 120.65 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b426b7b-32b4-414e-aa16-69fbe222de76")
-	)
-	(wire
-		(pts
-			(xy 120.65 93.98) (xy 133.35 93.98)
+			(xy 138.43 95.25) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
@@ -686,27 +697,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 124.46) (xy 133.35 118.11)
+			(xy 102.87 106.68) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51c902b8-7025-4d9a-b6dd-2dba716df60b")
+		(uuid "4567337f-3aaf-40c9-9ebf-0ba991eabaa9")
 	)
 	(wire
 		(pts
-			(xy 110.49 124.46) (xy 110.49 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53866c93-b0ff-4c33-a583-39b5dc1d6016")
-	)
-	(wire
-		(pts
-			(xy 120.65 90.17) (xy 120.65 93.98)
+			(xy 142.24 95.25) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -716,47 +717,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 124.46) (xy 137.16 124.46)
+			(xy 173.99 106.68) (xy 173.99 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56a6f92f-39da-4e57-8ae5-1bea83478531")
+		(uuid "5a2525b2-9269-47fc-bccc-bf5d77579dce")
 	)
 	(wire
 		(pts
-			(xy 110.49 124.46) (xy 114.3 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58d1c3d8-5ca4-470f-aac8-3dd74e64c183")
-	)
-	(wire
-		(pts
-			(xy 146.05 93.98) (xy 146.05 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a58c92d-705c-4b1e-8c02-29dfff62aab3")
-	)
-	(wire
-		(pts
-			(xy 120.65 66.04) (xy 124.46 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5afd08e8-67ce-4744-a7c0-c8bc15babe62")
-	)
-	(wire
-		(pts
-			(xy 110.49 93.98) (xy 120.65 93.98)
+			(xy 138.43 85.09) (xy 138.43 95.25)
 		)
 		(stroke
 			(width 0)
@@ -766,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 97.79) (xy 133.35 93.98)
+			(xy 134.62 106.68) (xy 138.43 106.68)
 		)
 		(stroke
 			(width 0)
@@ -776,17 +747,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 146.05 77.47)
+			(xy 111.76 85.09) (xy 114.3 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "760ba7f2-e529-4b26-b6ac-be036fe02b48")
+		(uuid "6ebe9de3-f3cd-4439-81d9-9aa41127ddcf")
 	)
 	(wire
 		(pts
-			(xy 120.65 66.04) (xy 120.65 69.85)
+			(xy 162.56 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -796,57 +767,37 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 124.46 124.46)
+			(xy 111.76 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ef1cf5c-d243-4478-aabd-4f9eae78f6ff")
+		(uuid "7c244a09-80a3-412b-86cb-ca5891ba3f41")
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 146.05 93.98)
+			(xy 97.79 118.11) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d548307-ef43-412c-bfb5-845a4628d9a0")
+		(uuid "81266f58-3393-457f-b542-17b898a2bef1")
 	)
 	(wire
 		(pts
-			(xy 175.26 90.17) (xy 193.04 90.17)
+			(xy 106.68 85.09) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "923d41b5-d7b4-4275-99ab-059b4b17277e")
+		(uuid "984b3672-0eb8-4d88-91cc-f2f89a2ac9d6")
 	)
 	(wire
 		(pts
-			(xy 133.35 66.04) (xy 133.35 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924041e9-def7-4fa2-99b0-6d419ecdd539")
-	)
-	(wire
-		(pts
-			(xy 146.05 93.98) (xy 154.94 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d7247b-3dc9-480a-8d81-5fad1a476313")
-	)
-	(wire
-		(pts
-			(xy 110.49 90.17) (xy 110.49 93.98)
+			(xy 142.24 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -856,47 +807,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 133.35 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ed3861b-5a36-4b3d-8d5c-c7e13eab61c0")
-	)
-	(wire
-		(pts
-			(xy 146.05 66.04) (xy 146.05 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1d1d416-ae8c-4551-912a-0e33e918376b")
-	)
-	(wire
-		(pts
-			(xy 118.11 66.04) (xy 120.65 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b71b32-1e93-437f-a1c4-ecb17308319b")
-	)
-	(wire
-		(pts
-			(xy 146.05 69.85) (xy 154.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba0db02-a088-4715-88fe-0c8a8c595ff8")
-	)
-	(wire
-		(pts
-			(xy 110.49 66.04) (xy 110.49 69.85)
+			(xy 162.56 85.09) (xy 165.1 85.09)
 		)
 		(stroke
 			(width 0)
@@ -906,17 +817,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 118.11) (xy 154.94 118.11)
+			(xy 111.76 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1656bfd-1639-481d-8a70-13f81b691f27")
+		(uuid "b1e6d41c-53ad-4d29-8330-685359ba4f56")
 	)
 	(wire
 		(pts
-			(xy 120.65 93.98) (xy 120.65 99.06)
+			(xy 162.56 106.68) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb03fe39-b2af-4c27-8c1f-26cf26336494")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +847,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 85.09) (xy 146.05 93.98)
+			(xy 102.87 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9699a8-783c-4bca-a4d6-099e4b6f1a51")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 149.86 118.11)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +867,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 93.98) (xy 133.35 90.17)
+			(xy 170.18 85.09) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c229aa1a-836f-4b6f-b3f8-13f3aa0adc84")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 142.24 106.68)
 		)
 		(stroke
 			(width 0)
@@ -946,156 +887,140 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 95.25) (xy 193.04 95.25)
+			(xy 102.87 118.11) (xy 121.92 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc56350b-1eaf-4fc2-9643-327f545b7c9b")
+		(uuid "d9d34970-2bcc-4c81-84ba-12992803f161")
 	)
 	(wire
 		(pts
-			(xy 142.24 66.04) (xy 146.05 66.04)
+			(xy 173.99 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e378d1fb-1b36-4cbf-becd-1fa4fee8a500")
+		(uuid "e9db0261-57dc-4e6c-ab33-a3ca077f0284")
 	)
 	(wire
 		(pts
-			(xy 146.05 124.46) (xy 146.05 118.11)
+			(xy 127 118.11) (xy 138.43 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea9dd5a0-f6ed-48ff-93dc-5f0beee7076d")
+		(uuid "ed58d3bd-7087-48f6-a6c7-54685983264b")
 	)
-	(label "BATT1"
-		(at 177.8 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 102.87 95.25) (xy 106.68 95.25)
 		)
-		(uuid "32bd4260-6cc5-4e96-840c-15b65b1bde55")
-	)
-	(label "BATT2"
-		(at 149.86 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "3a658660-a734-4101-b884-508f180d3d12")
+		(uuid "f820c4e2-7065-41fa-838c-9b94d39fa4e4")
 	)
-	(label "BATT0"
-		(at 177.8 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 154.94 118.11) (xy 173.99 118.11)
 		)
-		(uuid "5965c853-d04b-486a-8ae3-d11111136606")
-	)
-	(label "BATT2"
-		(at 177.8 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "a9906545-ad31-4244-bc64-d6f9015f2d60")
+		(uuid "fa82be35-eeaa-4cc5-816b-aec860170e59")
 	)
-	(label "BATT0"
-		(at 149.86 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(rectangle
+		(start 114.554 76.454)
+		(end 134.62 115.316)
+		(stroke
+			(width 0)
+			(type dash)
 		)
-		(uuid "d35d0dd5-0b67-4dd9-898d-19ca2bd05743")
-	)
-	(label "BATT1"
-		(at 149.86 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+		(fill
+			(type none)
 		)
-		(uuid "e201e76f-9057-4b6f-b0fd-32d1472f9e29")
+		(uuid ef2ef553-0200-4688-9080-c6b9f51358ec)
 	)
-	(hierarchical_label "BATT0"
-		(shape bidirectional)
-		(at 193.04 100.33 0)
-		(fields_autoplaced yes)
+	(text "6x 18650 cells in 2S3P arrangement\nPanasonic NCR18650GA. 3450mAh. 10350mAh total\nSamsung 35E. 3500mAh = 10500mAh total\n7.2V nominal, 8.4V max"
+		(exclude_from_sim no)
+		(at 114.3 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "2e83ac01-44c6-4e95-9a08-6c09eeed8bd2")
+		(uuid "08ad63ac-abb8-4766-a6c6-c550c20b3acc")
 	)
-	(hierarchical_label "BATT1"
+	(text "Must install low-side before high-side"
+		(exclude_from_sim no)
+		(at 114.3 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b9f222a-8595-43bc-944c-a2d0d5ad825c")
+	)
+	(hierarchical_label "BATT_N"
 		(shape bidirectional)
-		(at 193.04 95.25 0)
-		(fields_autoplaced yes)
+		(at 97.79 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade6a692-2ce1-439f-b311-b2707225909c")
+	)
+	(hierarchical_label "BATT_M"
+		(shape bidirectional)
+		(at 138.43 123.19 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c61f9587-15a3-4ced-8a0f-a795a2c8faa8")
+	)
+	(hierarchical_label "BATT_P"
+		(shape bidirectional)
+		(at 179.07 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4063fc28-5461-4fde-9fc7-26594de60689")
-	)
-	(hierarchical_label "BATT2"
-		(shape bidirectional)
-		(at 193.04 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "702ed2fd-29c7-4c6d-b31c-db6b37569536")
+		(uuid "f1f766b8-7f7a-44be-bfb3-0d21062e071f")
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 139.7 124.46 0)
+		(at 109.22 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0acbb30a-e2c3-4ada-b2f8-21b684df4a59")
-		(property "Reference" "F6"
-			(at 139.7 119.38 0)
+		(property "Reference" "F5"
+			(at 109.22 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A"
-			(at 139.7 121.92 0)
+		(property "Value" "5A"
+			(at 109.22 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1103,7 +1028,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 139.7 124.46 0)
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1112,7 +1037,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 124.46 0)
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +1046,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 139.7 124.46 0)
+			(at 109.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,42 +1063,39 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F6")
+					(reference "F5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 146.05 106.68 270)
+		(lib_id "Device:D_Schottky_Small")
+		(at 124.46 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23ce52ba-12bc-4c3a-a963-b242360b0682")
-		(property "Reference" "D7"
-			(at 148.59 105.0924 90)
+		(property "Reference" "D1"
+			(at 124.46 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10V Vrm"
-			(at 148.59 107.6324 90)
+		(property "Value" "BAT60JFILM"
+			(at 124.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 146.05 106.68 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 124.46 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1182,7 +1104,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 106.68 0)
+			(at 124.46 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,13 +1112,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 146.05 106.68 0)
+		(property "Description" "Schottky diode, small symbol"
+			(at 124.46 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field5" "10V Vrm"
+			(at 124.46 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1208,7 +1138,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "D7")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1216,24 +1146,24 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 127 124.46 0)
+		(at 109.22 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "46d49170-51c6-454c-ad26-23626cfd0837")
-		(property "Reference" "F9"
-			(at 127 119.38 0)
+		(property "Reference" "F3"
+			(at 107.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "10A"
-			(at 127 121.92 0)
+		(property "Value" "5A"
+			(at 109.22 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1171,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 127 124.46 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 124.46 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1189,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 127 124.46 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1206,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F9")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -1284,15 +1214,15 @@
 	)
 	(symbol
 		(lib_id "Argus-Misc:Keystone-1042")
-		(at 133.35 107.95 90)
+		(at 124.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "754051af-71b5-4512-9f84-460848423778")
-		(property "Reference" "J6"
-			(at 126.238 107.95 0)
+		(property "Reference" "J3"
+			(at 124.46 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1230,7 @@
 			)
 		)
 		(property "Value" "Keystone-1042"
-			(at 128.27 107.95 0)
+			(at 124.46 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1238,7 @@
 			)
 		)
 		(property "Footprint" "Argus-Misc:Keystone_1042"
-			(at 133.35 107.95 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 107.95 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 107.95 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1273,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1351,24 +1281,23 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 115.57 66.04 0)
+		(at 167.64 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ffe7cf4-eefc-4fe4-894d-b394fba4e2c4")
-		(property "Reference" "F10"
-			(at 115.57 60.96 0)
+		(property "Reference" "F2"
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A"
-			(at 115.57 63.5 0)
+		(property "Value" "5A"
+			(at 167.64 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1305,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 115.57 66.04 0)
+			(at 167.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 66.04 0)
+			(at 167.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1323,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 115.57 66.04 0)
+			(at 167.64 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1340,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F10")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -1419,24 +1348,23 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 139.7 66.04 0)
+		(at 167.64 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "944f7832-9483-4830-b4b7-f3b4f342566c")
-		(property "Reference" "F4"
-			(at 139.7 60.96 0)
+		(property "Reference" "F6"
+			(at 167.64 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A"
-			(at 139.7 63.5 0)
+		(property "Value" "5A"
+			(at 167.64 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1372,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 139.7 66.04 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 66.04 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1390,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 139.7 66.04 0)
+			(at 167.64 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1407,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F4")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -1487,15 +1415,15 @@
 	)
 	(symbol
 		(lib_id "Argus-Misc:Keystone-1042")
-		(at 133.35 80.01 90)
+		(at 152.4 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9eb08a90-dc79-4c9a-8bf9-cf186e2f1d43")
-		(property "Reference" "J5"
-			(at 125.73 80.01 0)
+		(property "Reference" "J4"
+			(at 152.4 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1503,7 +1431,7 @@
 			)
 		)
 		(property "Value" "Keystone-1042"
-			(at 128.27 80.01 0)
+			(at 152.4 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,7 +1439,7 @@
 			)
 		)
 		(property "Footprint" "Argus-Misc:Keystone_1042"
-			(at 133.35 80.01 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 80.01 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 80.01 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,7 +1474,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1482,7 @@
 	)
 	(symbol
 		(lib_id "Argus-Misc:Keystone-1048")
-		(at 115.57 109.22 90)
+		(at 124.46 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1562,25 +1490,23 @@
 		(dnp no)
 		(uuid "cc7a094e-1f6b-403e-97ea-4455557f7c10")
 		(property "Reference" "J1"
-			(at 105.918 107.95 0)
+			(at 124.46 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Keystone-1048"
-			(at 115.824 101.6 0)
+			(at 124.46 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Argus-Misc:BAT_1048"
-			(at 124.714 109.22 0)
+			(at 124.46 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,7 +1515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 109.22 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +1524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 109.22 0)
+			(at 124.46 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,35 +1554,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 146.05 81.28 270)
+		(lib_id "Device:D_Schottky_Small")
+		(at 152.4 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d03a5f0d-d0fa-43f6-b093-6711a9e0920d")
-		(property "Reference" "D6"
-			(at 148.59 79.6924 90)
+		(property "Reference" "D2"
+			(at 152.4 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10V Vrm"
-			(at 148.59 82.2324 90)
+		(property "Value" "BAT60JFILM"
+			(at 152.4 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 146.05 81.28 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 152.4 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 81.28 0)
+			(at 152.4 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1673,13 +1596,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 146.05 81.28 0)
+		(property "Description" "Schottky diode, small symbol"
+			(at 152.4 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field5" "10V Vrm"
+			(at 152.4 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1691,7 +1622,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "D6")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1699,24 +1630,23 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 116.84 124.46 0)
+		(at 109.22 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d82213d7-0785-42b5-a4ae-891ff8f6e2cd")
-		(property "Reference" "F12"
-			(at 116.84 119.38 0)
+		(property "Reference" "F1"
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A"
-			(at 116.84 121.92 0)
+		(property "Value" "5A"
+			(at 109.22 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1654,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 116.84 124.46 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,7 +1663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 124.46 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1742,7 +1672,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 116.84 124.46 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,7 +1689,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F12")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -1767,33 +1697,31 @@
 	)
 	(symbol
 		(lib_id "Argus-Misc:Keystone-1048")
-		(at 115.57 80.01 90)
+		(at 152.4 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "ebd1f82c-a260-4f0b-8f6e-8305c78d36f9")
-		(property "Reference" "J9"
-			(at 106.426 78.994 0)
+		(property "Reference" "J2"
+			(at 152.4 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Keystone-1048"
-			(at 115.57 72.898 0)
+			(at 152.4 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Argus-Misc:BAT_1048"
-			(at 124.714 80.01 0)
+			(at 152.4 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 80.01 0)
+			(at 152.4 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 80.01 0)
+			(at 152.4 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1762,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1842,24 +1770,23 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 127 66.04 0)
+		(at 167.64 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fddf42cb-155a-4177-9445-8a988e24b796")
-		(property "Reference" "F7"
-			(at 127 60.96 0)
+		(property "Reference" "F4"
+			(at 167.64 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10A"
-			(at 127 63.5 0)
+		(property "Value" "5A"
+			(at 167.64 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1794,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 127 66.04 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1876,7 +1803,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 66.04 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +1812,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 127 66.04 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1902,7 +1829,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "F7")
+					(reference "F4")
 					(unit 1)
 				)
 			)
