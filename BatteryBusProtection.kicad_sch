@@ -2073,6 +2073,7 @@
 	(hierarchical_label "BATT_P"
 		(shape bidirectional)
 		(at 90.17 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2084,6 +2085,7 @@
 	(hierarchical_label "DISCHARGE_ACTIVE"
 		(shape output)
 		(at 198.12 135.89 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2095,6 +2097,7 @@
 	(hierarchical_label "CHARGE_ACTIVE"
 		(shape output)
 		(at 116.84 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2106,6 +2109,7 @@
 	(hierarchical_label "DISCHARGE_EN"
 		(shape input)
 		(at 119.38 130.81 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2117,6 +2121,7 @@
 	(hierarchical_label "CHARGE_EN"
 		(shape input)
 		(at 133.35 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

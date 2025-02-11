@@ -1665,6 +1665,7 @@
 	(hierarchical_label "HEATER1_ON"
 		(shape input)
 		(at 106.68 191.77 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,6 +1677,7 @@
 	(hierarchical_label "HEATER0_ON"
 		(shape input)
 		(at 106.68 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,6 +1689,7 @@
 	(hierarchical_label "HEATER_ENABLE"
 		(shape input)
 		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
