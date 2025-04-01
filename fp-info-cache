@@ -1,4 +1,4 @@
-23902234195279247
+23909197683312331
 Argus-Connectors
 20AWG Through Hole
 
@@ -126,6 +126,13 @@ Antenna Mount
 1
 1
 Argus-Misc
+Antenna Mount v2
+
+
+0
+1
+1
+Argus-Misc
 BAT_1048
 
 
@@ -168,6 +175,13 @@ Large Double Antenna Mount
 2
 2
 Argus-Misc
+LightSensorPad
+
+
+0
+1
+1
+Argus-Misc
 LoRa126XF30
 
 
@@ -209,6 +223,20 @@ RELAY8_SMTGUL_TEC
 0
 8
 8
+Argus-Misc
+RELAY_G6B-1114P-US_OMR
+
+G6B-1114P-US DC6 
+0
+4
+4
+Argus-Misc
+RELAY_PE014006
+
+
+0
+5
+5
 Argus-Misc
 RFM95PW
 
