@@ -491,7 +491,7 @@
       "plot": "../Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BatteryBoard.step",
+      "step": "Avionics-BatteryBoard.step",
       "svg": "",
       "vrml": ""
     },
