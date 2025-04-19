@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "67f1ccc8-bc57-4eb8-8331-f775885ef8b7")
 	(paper "USLetter")
 	(title_block
@@ -110,6 +110,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Argus-Misc:Keystone-1048"
 			(exclude_from_sim no)
@@ -160,8 +161,8 @@
 			)
 			(symbol "Keystone-1048_1_1"
 				(rectangle
-					(start -7.62 -2.54)
-					(end 7.62 -7.62)
+					(start -7.62 7.62)
+					(end 7.62 2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -171,8 +172,8 @@
 					)
 				)
 				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 2.54)
+					(start -7.62 -2.54)
+					(end 7.62 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -199,24 +200,6 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "POS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -10.16 -5.08 0)
 					(length 2.54)
@@ -228,6 +211,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "POS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -254,11 +255,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:D_Schottky_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -328,6 +334,18 @@
 			(symbol "D_Schottky_Small_0_1"
 				(polyline
 					(pts
+						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -0.762 0) (xy 0.762 0)
 					)
 					(stroke
@@ -341,18 +359,6 @@
 				(polyline
 					(pts
 						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
 					)
 					(stroke
 						(width 0.254)
@@ -401,11 +407,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Fuse_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -533,7 +544,42 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 114.554 76.454)
+		(end 134.62 115.316)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ef2ef553-0200-4688-9080-c6b9f51358ec)
+	)
+	(text "6x 18650 cells in 2S3P arrangement\nPanasonic NCR18650GA. 3450mAh. 10350mAh total\nSamsung 35E. 3500mAh = 10500mAh total\n7.2V nominal, 8.4V max"
+		(exclude_from_sim no)
+		(at 114.3 65.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08ad63ac-abb8-4766-a6c6-c550c20b3acc")
+	)
+	(text "Must install low-side before high-side"
+		(exclude_from_sim no)
+		(at 114.3 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b9f222a-8595-43bc-944c-a2d0d5ad825c")
 	)
 	(junction
 		(at 138.43 106.68)
@@ -935,44 +981,9 @@
 		)
 		(uuid "fa82be35-eeaa-4cc5-816b-aec860170e59")
 	)
-	(rectangle
-		(start 114.554 76.454)
-		(end 134.62 115.316)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ef2ef553-0200-4688-9080-c6b9f51358ec)
-	)
-	(text "6x 18650 cells in 2S3P arrangement\nPanasonic NCR18650GA. 3450mAh. 10350mAh total\nSamsung 35E. 3500mAh = 10500mAh total\n7.2V nominal, 8.4V max"
-		(exclude_from_sim no)
-		(at 114.3 65.024 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08ad63ac-abb8-4766-a6c6-c550c20b3acc")
-	)
-	(text "Must install low-side before high-side"
-		(exclude_from_sim no)
-		(at 114.3 72.898 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b9f222a-8595-43bc-944c-a2d0d5ad825c")
-	)
 	(hierarchical_label "BATT_N"
 		(shape bidirectional)
 		(at 97.79 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -984,7 +995,6 @@
 	(hierarchical_label "BATT_M"
 		(shape bidirectional)
 		(at 138.43 123.19 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -996,7 +1006,6 @@
 	(hierarchical_label "BATT_P"
 		(shape bidirectional)
 		(at 179.07 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
