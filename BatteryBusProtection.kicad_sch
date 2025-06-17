@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "15ebf593-65a9-449d-a7de-eb8665ce0e36")
 	(paper "USLetter")
 	(title_block
@@ -15,9 +15,13 @@
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -87,10 +91,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -99,10 +103,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -148,25 +152,29 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
+		(symbol "Device:Fuse_Small"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0)
+				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "F"
-				(at 2.032 0 90)
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -174,7 +182,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -191,7 +199,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fuse"
+			(property "Description" "Fuse, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -218,12 +226,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "Fuse_0_1"
+			(symbol "Fuse_Small_0_1"
 				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -232,7 +240,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -2.54)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -243,9 +251,9 @@
 					)
 				)
 			)
-			(symbol "Fuse_1_1"
+			(symbol "Fuse_Small_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -2.54 0 0)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -263,7 +271,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 2.54 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -281,30 +289,33 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -403,6 +414,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Power_Management:LTC4412xS6"
 			(exclude_from_sim no)
@@ -501,24 +513,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -530,24 +524,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "STAT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -573,6 +549,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 10.16 2.54 180)
 					(length 2.54)
@@ -591,10 +585,31 @@
 						)
 					)
 				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "STAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET:Si7141DP"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -667,6 +682,18 @@
 			(symbol "Si7141DP_0_1"
 				(polyline
 					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
@@ -679,7 +706,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -701,60 +752,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -771,6 +773,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -797,95 +845,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "Si7141DP_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54) hide
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -922,13 +883,74 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+1V0"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1000,7 +1022,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1012,7 +1034,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1043,12 +1065,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1120,7 +1147,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1132,7 +1159,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1163,12 +1190,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1259,7 +1291,89 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 16.764 186.944)
+		(end 59.69 198.882)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 864c2e4b-3b30-4ae5-ab80-fc6600382c11)
+	)
+	(rectangle
+		(start 70.866 99.06)
+		(end 217.678 155.194)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9d57ef1-c42b-4d4a-bb91-7df6fef3bee3)
+	)
+	(rectangle
+		(start 70.866 34.798)
+		(end 217.678 90.932)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c694ce92-066c-47eb-affc-2053622c5584)
+	)
+	(text "CHARGE SWITCH"
+		(exclude_from_sim no)
+		(at 79.502 37.084 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "4bc558b1-2ff7-47f5-a5aa-834bd8cc8188")
+	)
+	(text "(A bit pointless to have this)"
+		(exclude_from_sim no)
+		(at 186.436 139.446 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91595503-25aa-4741-acd9-bcdce8d7f075")
+	)
+	(text "Battery protection design derived from \nPortland State University's \nOpen-Source OreSat project"
+		(exclude_from_sim no)
+		(at 38.354 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d50ded96-a2a8-46ab-b50b-db0a64e26879")
+	)
+	(text "DISCHARGE SWITCH"
+		(exclude_from_sim no)
+		(at 81.026 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "fc5d56df-6d5f-47b0-bd3f-7bae1651aeb4")
 	)
 	(junction
 		(at 204.47 45.72)
@@ -1671,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 45.72) (xy 109.22 45.72)
+			(xy 100.33 45.72) (xy 110.49 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1738,6 +1852,16 @@
 			(type default)
 		)
 		(uuid "9e2a8085-ec86-486b-85a8-7af460956c40")
+	)
+	(wire
+		(pts
+			(xy 115.57 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a42740-036e-45e2-bf0c-e66a39f23f62")
 	)
 	(wire
 		(pts
@@ -1811,16 +1935,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 130.81 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bec5645a-91ef-4ca5-853c-fbc181ac1ac5")
-	)
-	(wire
-		(pts
 			(xy 124.46 110.49) (xy 124.46 118.11)
 		)
 		(stroke
@@ -1851,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 110.49) (xy 109.22 110.49)
+			(xy 100.33 110.49) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1921,16 +2035,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 124.46 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3c6eab3-9089-435b-bc42-67545b78f7ca")
-	)
-	(wire
-		(pts
 			(xy 135.89 66.04) (xy 147.32 66.04)
 		)
 		(stroke
@@ -1989,86 +2093,15 @@
 		)
 		(uuid "ff2d07d5-69b5-490a-87e6-1cfa7ad57bcc")
 	)
-	(rectangle
-		(start 16.764 186.944)
-		(end 59.69 198.882)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 130.81 45.72)
+		)
 		(stroke
 			(width 0)
-			(type dash)
+			(type default)
 		)
-		(fill
-			(type none)
-		)
-		(uuid 864c2e4b-3b30-4ae5-ab80-fc6600382c11)
-	)
-	(rectangle
-		(start 70.866 99.06)
-		(end 217.678 155.194)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b9d57ef1-c42b-4d4a-bb91-7df6fef3bee3)
-	)
-	(rectangle
-		(start 70.866 34.798)
-		(end 217.678 90.932)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c694ce92-066c-47eb-affc-2053622c5584)
-	)
-	(text "CHARGE SWITCH"
-		(exclude_from_sim no)
-		(at 79.502 37.084 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "4bc558b1-2ff7-47f5-a5aa-834bd8cc8188")
-	)
-	(text "(A bit pointless to have this)"
-		(exclude_from_sim no)
-		(at 186.436 139.446 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91595503-25aa-4741-acd9-bcdce8d7f075")
-	)
-	(text "Battery protection design derived from \nPortland State University's \nOpen-Source OreSat project"
-		(exclude_from_sim no)
-		(at 38.354 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d50ded96-a2a8-46ab-b50b-db0a64e26879")
-	)
-	(text "DISCHARGE SWITCH"
-		(exclude_from_sim no)
-		(at 81.026 101.346 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "fc5d56df-6d5f-47b0-bd3f-7bae1651aeb4")
+		(uuid "ff7c8936-418a-48d0-868b-4b6015246cb9")
 	)
 	(hierarchical_label "BATT_P"
 		(shape bidirectional)
@@ -2135,22 +2168,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04f2e2aa-f790-4405-bb11-326f8be8ebde")
-		(property "Reference" "R46"
-			(at 129.54 119.634 0)
+		(property "Reference" "R39"
+			(at 125.73 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 130.556 121.666 0)
+			(at 125.73 121.666 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -2189,7 +2222,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R46")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2269,7 +2302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49f38d75-2fdd-49f0-86f2-09200f50c943")
-		(property "Reference" "Q11"
+		(property "Reference" "Q7"
 			(at 135.89 39.37 90)
 			(effects
 				(font
@@ -2333,7 +2366,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q11")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2348,22 +2381,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b116eae-b7a5-4bfb-be0a-ec93c1340b0a")
-		(property "Reference" "R45"
-			(at 142.24 54.864 0)
+		(property "Reference" "R38"
+			(at 146.05 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 140.97 56.896 0)
+			(at 146.05 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -2402,7 +2435,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R45")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -2417,7 +2450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b14505c-780b-4cd3-8f9f-ad8168274586")
-		(property "Reference" "Q14"
+		(property "Reference" "Q10"
 			(at 170.18 104.14 90)
 			(effects
 				(font
@@ -2481,15 +2514,15 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q14")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 113.03 110.49 270)
+		(lib_id "Device:Fuse_Small")
+		(at 113.03 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2497,7 +2530,7 @@
 		(dnp no)
 		(uuid "4fe5fef8-43a2-40d2-9f09-f9c77e8d73ef")
 		(property "Reference" "F8"
-			(at 113.03 106.172 90)
+			(at 113.03 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +2538,7 @@
 			)
 		)
 		(property "Value" "6A"
-			(at 113.03 108.204 90)
+			(at 113.03 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,7 +2546,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 113.03 108.712 90)
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2530,7 +2563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuse, small symbol"
 			(at 113.03 110.49 0)
 			(effects
 				(font
@@ -2540,7 +2573,7 @@
 			)
 		)
 		(property "Flight" "0R"
-			(at 113.03 112.776 90)
+			(at 113.03 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ac1210a-29a0-4101-8f3d-d7b16525586d")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 150.368 137.414 0)
 			(effects
 				(font
@@ -2581,7 +2614,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 150.368 139.446 0)
 			(effects
 				(font
@@ -2626,15 +2659,15 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 113.03 45.72 90)
+		(lib_id "Device:Fuse_Small")
+		(at 113.03 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2642,7 +2675,7 @@
 		(dnp no)
 		(uuid "7d8d8d77-fba0-408b-a7cc-dd72e74ed0b9")
 		(property "Reference" "F7"
-			(at 113.03 41.402 90)
+			(at 113.03 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2683,7 @@
 			)
 		)
 		(property "Value" "6A"
-			(at 113.03 43.434 90)
+			(at 113.03 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2691,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 113.03 47.498 90)
+			(at 113.03 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" "Fuse, small symbol"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -2685,7 +2718,7 @@
 			)
 		)
 		(property "Flight" "0R"
-			(at 113.03 47.752 90)
+			(at 113.03 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2717,7 +2750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e1ba590-7c19-4e3b-8ccc-2db823eba728")
-		(property "Reference" "R47"
+		(property "Reference" "R40"
 			(at 193.04 128.524 0)
 			(effects
 				(font
@@ -2727,12 +2760,12 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 197.866 130.556 0)
+			(at 193.04 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -2771,7 +2804,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R47")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2786,7 +2819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acc2221a-5374-4128-883d-3c1d16df2a3d")
-		(property "Reference" "R44"
+		(property "Reference" "R37"
 			(at 118.11 63.754 0)
 			(effects
 				(font
@@ -2840,7 +2873,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R44")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -2920,7 +2953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7f06680-6649-45e0-8bf9-ceb33a020cd2")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 188.722 72.644 0)
 			(effects
 				(font
@@ -2929,7 +2962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100n"
 			(at 188.722 74.676 0)
 			(effects
 				(font
@@ -2974,7 +3007,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3055,7 +3088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c74e18e1-b6b5-4c7b-bdc3-001145b45d49")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 170.942 55.88 0)
 			(effects
 				(font
@@ -3121,7 +3154,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3202,7 +3235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d70bfb84-624e-4947-96bb-a2f815f2d4ee")
-		(property "Reference" "Q13"
+		(property "Reference" "Q9"
 			(at 135.89 104.14 90)
 			(effects
 				(font
@@ -3266,7 +3299,7 @@
 		(instances
 			(project "BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q13")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -3282,8 +3315,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da581c88-345f-4df9-a85d-347c44c144b3")
-		(property "Reference" "U5"
-			(at 172.3741 120.65 0)
+		(property "Reference" "U4"
+			(at 172.3233 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3325,7 @@
 			)
 		)
 		(property "Value" "LTC4412xS6"
-			(at 172.3741 123.19 0)
+			(at 172.3233 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3381,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3364,7 +3397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dceebda4-fb7b-4b09-ba74-ce036aa0e104")
-		(property "Reference" "Q12"
+		(property "Reference" "Q8"
 			(at 168.91 39.37 90)
 			(effects
 				(font
@@ -3428,7 +3461,7 @@
 		(instances
 			(project ""
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q12")
+					(reference "Q8")
 					(unit 1)
 				)
 			)

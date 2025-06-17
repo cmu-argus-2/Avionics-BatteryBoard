@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "15ebf593-65a9-449d-a7de-eb8665ce0e36")
 	(paper "USLetter")
 	(title_block
@@ -177,35 +177,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 40.64 -7.62 180)
-					(length 7.62)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
-					(at 40.64 -5.08 180)
+					(at 40.64 0 180)
 					(length 7.62)
-					(name "DO"
+					(name "CB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,16 +214,34 @@
 					)
 				)
 				(pin output line
-					(at 40.64 0 180)
+					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "CB"
+					(name "DO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -250,11 +250,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -324,10 +329,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -336,10 +341,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -385,30 +390,33 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -507,7 +515,63 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 16.51 186.944)
+		(end 59.436 198.882)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4276df7b-65c0-4eb3-b79c-bb3b924df0f4)
+	)
+	(text "S-8209A has a Vov = 4.100V (release = 4.000V)\nand a Vuv = 2.500V (release = 2.700V)"
+		(exclude_from_sim no)
+		(at 82.042 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "50eb6235-56d7-4e54-8959-1834274bd67f")
+	)
+	(text "t_D = 10.0 MΩ typ. × C_CDT [μF]\nt_D = 0.1s"
+		(exclude_from_sim no)
+		(at 164.592 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e61cd84-54cc-4171-91c2-fed5c7770f09")
+	)
+	(text "Battery protection design derived from \nPortland State University's \nOpen-Source OreSat project"
+		(exclude_from_sim no)
+		(at 38.1 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c03ce0c-d197-455f-b4fe-e19649df0b24")
+	)
+	(text "t_D = 10.0 MΩ typ. × C_CDT [μF]\nt_D = 0.1s"
+		(exclude_from_sim no)
+		(at 96.012 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad97e0b0-ae79-4b1d-8917-e77c84dd2767")
 	)
 	(junction
 		(at 208.28 97.79)
@@ -1059,61 +1123,6 @@
 		)
 		(uuid "faedf67d-4140-4b62-882b-be84492a664d")
 	)
-	(rectangle
-		(start 16.51 186.944)
-		(end 59.436 198.882)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 4276df7b-65c0-4eb3-b79c-bb3b924df0f4)
-	)
-	(text "S-8209A has a Vov = 4.100V (release = 4.000V)\nand a Vuv = 2.500V (release = 2.700V)"
-		(exclude_from_sim no)
-		(at 82.042 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50eb6235-56d7-4e54-8959-1834274bd67f")
-	)
-	(text "t_D = 10.0 MΩ typ. × C_CDT [μF]\nt_D = 0.1s"
-		(exclude_from_sim no)
-		(at 164.592 101.346 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e61cd84-54cc-4171-91c2-fed5c7770f09")
-	)
-	(text "Battery protection design derived from \nPortland State University's \nOpen-Source OreSat project"
-		(exclude_from_sim no)
-		(at 38.1 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6c03ce0c-d197-455f-b4fe-e19649df0b24")
-	)
-	(text "t_D = 10.0 MΩ typ. × C_CDT [μF]\nt_D = 0.1s"
-		(exclude_from_sim no)
-		(at 96.012 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ad97e0b0-ae79-4b1d-8917-e77c84dd2767")
-	)
 	(hierarchical_label "BATT_M"
 		(shape bidirectional)
 		(at 219.71 97.79 0)
@@ -1350,7 +1359,7 @@
 		(dnp no)
 		(uuid "34eb77cc-5372-4d1a-929e-830519c804fd")
 		(property "Reference" "C1"
-			(at 88.646 124.714 0)
+			(at 88.392 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,8 +1367,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 88.646 126.746 0)
+		(property "Value" "100n"
+			(at 88.392 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,7 +1584,7 @@
 		(dnp no)
 		(uuid "82395743-f344-4c2c-ac15-aa165996bc8b")
 		(property "Reference" "C4"
-			(at 167.386 91.694 0)
+			(at 167.132 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1583,8 +1592,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 167.386 93.726 0)
+		(property "Value" "10n"
+			(at 167.132 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,7 +1722,7 @@
 		(dnp no)
 		(uuid "9c450755-e689-4c19-b21f-2d0e4c9a9429")
 		(property "Reference" "C3"
-			(at 157.226 91.694 0)
+			(at 156.972 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,8 +1730,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 157.226 93.726 0)
+		(property "Value" "100n"
+			(at 156.972 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1791,7 @@
 		(dnp no)
 		(uuid "b366f40c-801f-484d-9e32-c2a15470b425")
 		(property "Reference" "C2"
-			(at 98.806 124.714 0)
+			(at 98.552 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,8 +1799,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 98.806 126.746 0)
+		(property "Value" "10n"
+			(at 98.552 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b6fd875d-6e05-4440-9a05-0f0aa046a0ef")
 	(paper "USLetter")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2025-01-08")
-		(rev "v3.0")
+		(date "2025-04-16")
+		(rev "v3.1")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -15,9 +15,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -115,11 +119,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -217,12 +226,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -313,7 +327,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "EXTERNAL INTERFACES"
+		(exclude_from_sim no)
+		(at 216.662 106.68 90)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "97acef82-6d16-49dd-aca0-198f2467c104")
 	)
 	(junction
 		(at 58.42 99.06)
@@ -731,22 +756,12 @@
 		)
 		(uuid "f7b1449e-4fbc-49f8-8df8-2e3055b2ed2b")
 	)
-	(text "EXTERNAL INTERFACES"
-		(exclude_from_sim no)
-		(at 216.662 106.68 90)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "97acef82-6d16-49dd-aca0-198f2467c104")
-	)
 	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 158.75 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0783e9df-9bbe-4166-8a58-87d419244d9f")
@@ -813,7 +828,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "0dd14d9a-798e-4f9f-839e-7a27a41e3eb1")
@@ -954,7 +969,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5137ad7b-614f-45df-a099-9403fbbcdae5")
@@ -1030,7 +1045,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bca50476-ccb1-4090-802a-1330126e738a")
@@ -1105,7 +1120,7 @@
 		(at 158.75 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e820752b-3753-40c2-8cac-7ace56b3011a")
@@ -1172,7 +1187,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ff73427f-634a-47c1-aa2f-5a45070da378")
@@ -1245,6 +1260,10 @@
 	(sheet
 		(at 119.38 80.01)
 		(size 38.1 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1274,53 +1293,53 @@
 		)
 		(pin "DISCHARGE_ACTIVE" output
 			(at 157.48 99.06 0)
+			(uuid "ba7e8ee4-96db-4e27-9375-2ad88107e1b8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ba7e8ee4-96db-4e27-9375-2ad88107e1b8")
 		)
 		(pin "CHARGE_EN" input
 			(at 119.38 93.98 180)
+			(uuid "8d0ca461-1b43-4bbe-83a1-48152992474f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d0ca461-1b43-4bbe-83a1-48152992474f")
 		)
 		(pin "CHARGE_ACTIVE" output
 			(at 157.48 93.98 0)
+			(uuid "f343bbd2-193b-4712-8d37-095f86c5f869")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f343bbd2-193b-4712-8d37-095f86c5f869")
 		)
 		(pin "DISCHARGE_EN" input
 			(at 119.38 99.06 180)
+			(uuid "322fd7d1-67b9-4d0c-b9e1-af73d00d5e29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "322fd7d1-67b9-4d0c-b9e1-af73d00d5e29")
 		)
 		(pin "BATT_P" bidirectional
 			(at 119.38 82.55 180)
+			(uuid "0f6f16c5-7cfb-4d09-8ff2-81bccc0338df")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0f6f16c5-7cfb-4d09-8ff2-81bccc0338df")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1333,6 +1352,10 @@
 	(sheet
 		(at 68.58 86.36)
 		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1362,53 +1385,53 @@
 		)
 		(pin "CHARGE_EN" output
 			(at 106.68 93.98 0)
+			(uuid "02892d4d-41f5-4242-b18f-75253b655bd1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "02892d4d-41f5-4242-b18f-75253b655bd1")
 		)
 		(pin "DISCHARGE_EN" output
 			(at 106.68 99.06 0)
+			(uuid "f56c8025-74b7-4c26-a6ef-f73345554e43")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f56c8025-74b7-4c26-a6ef-f73345554e43")
 		)
 		(pin "BATT_P" bidirectional
 			(at 68.58 88.9 180)
+			(uuid "cbf4db36-8c3f-446a-b8c8-f66b9f550775")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbf4db36-8c3f-446a-b8c8-f66b9f550775")
 		)
 		(pin "BATT_M" bidirectional
 			(at 68.58 93.98 180)
+			(uuid "41e98d6c-abf4-4abd-bb5a-8f65a2f3dba2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "41e98d6c-abf4-4abd-bb5a-8f65a2f3dba2")
 		)
 		(pin "BATT_N" bidirectional
 			(at 68.58 99.06 180)
+			(uuid "0dec78d0-bd39-435e-87ad-46fbb3033841")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0dec78d0-bd39-435e-87ad-46fbb3033841")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1421,6 +1444,10 @@
 	(sheet
 		(at 119.38 59.69)
 		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1450,33 +1477,33 @@
 		)
 		(pin "HEATER0_ON" input
 			(at 157.48 67.31 0)
+			(uuid "dde05ff9-cb4e-4dd7-950f-f8051672f664")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "dde05ff9-cb4e-4dd7-950f-f8051672f664")
 		)
 		(pin "HEATER1_ON" input
 			(at 157.48 72.39 0)
+			(uuid "310c118f-6835-48d7-9e47-636f3fbdeb68")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "310c118f-6835-48d7-9e47-636f3fbdeb68")
 		)
 		(pin "HEATER_ENABLE" input
 			(at 157.48 62.23 0)
+			(uuid "05adfbd3-9715-4be5-814a-6b5f18513e2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "05adfbd3-9715-4be5-814a-6b5f18513e2c")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1489,6 +1516,10 @@
 	(sheet
 		(at 34.29 86.36)
 		(size 21.59 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1518,33 +1549,33 @@
 		)
 		(pin "BATT_N" bidirectional
 			(at 55.88 99.06 0)
+			(uuid "57f6825c-57df-4c82-9808-90399335ca61")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57f6825c-57df-4c82-9808-90399335ca61")
 		)
 		(pin "BATT_M" bidirectional
 			(at 55.88 93.98 0)
+			(uuid "87e726d0-0cf7-40af-9334-0e284033a2da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "87e726d0-0cf7-40af-9334-0e284033a2da")
 		)
 		(pin "BATT_P" bidirectional
 			(at 55.88 88.9 0)
+			(uuid "9395a8ad-e3e1-4051-bed8-e34e1d034e4e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9395a8ad-e3e1-4051-bed8-e34e1d034e4e")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1557,6 +1588,10 @@
 	(sheet
 		(at 119.38 106.68)
 		(size 38.1 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1586,63 +1621,63 @@
 		)
 		(pin "SDA_FUEL" bidirectional
 			(at 157.48 114.3 0)
+			(uuid "357e2f53-de4f-4771-a340-c74a6ba79809")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "357e2f53-de4f-4771-a340-c74a6ba79809")
 		)
 		(pin "SCL_FUEL" bidirectional
 			(at 157.48 119.38 0)
+			(uuid "6272c2e1-8cc8-4014-ad95-3b5210efee1a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "6272c2e1-8cc8-4014-ad95-3b5210efee1a")
 		)
 		(pin "ALERT" output
 			(at 157.48 109.22 0)
+			(uuid "9edb2366-1ca1-4bd5-b04e-64f70165172b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9edb2366-1ca1-4bd5-b04e-64f70165172b")
 		)
 		(pin "BATT_M" bidirectional
 			(at 119.38 114.3 180)
+			(uuid "dda6c1b2-c7ea-4fa8-a60c-d3ca023225f2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dda6c1b2-c7ea-4fa8-a60c-d3ca023225f2")
 		)
 		(pin "BATT_N" bidirectional
 			(at 119.38 119.38 180)
+			(uuid "37e2f372-d761-45dd-b462-510d60c64007")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "37e2f372-d761-45dd-b462-510d60c64007")
 		)
 		(pin "BATT_P" bidirectional
 			(at 119.38 109.22 180)
+			(uuid "a3a17853-3996-4ce3-822d-1b98202d254d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a3a17853-3996-4ce3-822d-1b98202d254d")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1655,6 +1690,10 @@
 	(sheet
 		(at 185.42 90.932)
 		(size 27.94 30.988)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1684,63 +1723,63 @@
 		)
 		(pin "SDA_BUS" bidirectional
 			(at 185.42 114.3 180)
+			(uuid "82c1e11f-646f-4cdd-9fa2-8cbfe37265d4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "82c1e11f-646f-4cdd-9fa2-8cbfe37265d4")
 		)
 		(pin "SCL_BUS" bidirectional
 			(at 185.42 119.38 180)
+			(uuid "93c5d24d-bd27-4989-8720-1464c64c865d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "93c5d24d-bd27-4989-8720-1464c64c865d")
 		)
 		(pin "ALERT" input
 			(at 185.42 109.22 180)
+			(uuid "ac534290-4223-4717-9239-95fbeb6b4934")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ac534290-4223-4717-9239-95fbeb6b4934")
 		)
 		(pin "HEATER_ENABLE" output
 			(at 185.42 93.98 180)
+			(uuid "413d9b15-7948-4881-844e-e532d6dd73de")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "413d9b15-7948-4881-844e-e532d6dd73de")
 		)
 		(pin "HEATER1_ON" output
 			(at 185.42 104.14 180)
+			(uuid "864fca4d-3411-4252-ac6a-f1cf84f040e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "864fca4d-3411-4252-ac6a-f1cf84f040e0")
 		)
 		(pin "HEATER0_ON" output
 			(at 185.42 99.06 180)
+			(uuid "502ea970-161d-48ca-b07c-51573ebca8cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "502ea970-161d-48ca-b07c-51573ebca8cd")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -1755,4 +1794,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
