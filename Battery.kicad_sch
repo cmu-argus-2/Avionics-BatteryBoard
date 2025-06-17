@@ -1066,6 +1066,14 @@
 				(hide yes)
 			)
 		)
+		(property "Flight" "0R"
+			(at 109.22 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9ce8ae57-0b9b-499e-ad73-e8744061143f")
 		)
@@ -1141,6 +1149,14 @@
 				)
 			)
 		)
+		(property "Flight" "DNI"
+			(at 124.46 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd927810-5bff-4208-b274-aef5166b1b2d")
 		)
@@ -1166,12 +1182,11 @@
 		(dnp no)
 		(uuid "46d49170-51c6-454c-ad26-23626cfd0837")
 		(property "Reference" "F3"
-			(at 107.95 91.44 0)
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "5A"
@@ -1207,6 +1222,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 109.22 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1343,6 +1366,14 @@
 				(hide yes)
 			)
 		)
+		(property "Flight" "0R"
+			(at 167.64 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad65384e-09c8-48f7-9cb3-4056f119f3b2")
 		)
@@ -1408,6 +1439,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 167.64 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1625,6 +1664,14 @@
 				)
 			)
 		)
+		(property "Flight" "DNI"
+			(at 152.4 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d609a857-08d4-4527-b04a-887daaf7395b")
 		)
@@ -1690,6 +1737,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 109.22 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -1830,6 +1885,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Flight" "0R"
+			(at 167.64 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

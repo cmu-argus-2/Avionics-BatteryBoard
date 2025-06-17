@@ -404,21 +404,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1361,7 +1359,7 @@
 		(dnp no)
 		(uuid "34eb77cc-5372-4d1a-929e-830519c804fd")
 		(property "Reference" "C1"
-			(at 88.646 124.714 0)
+			(at 88.392 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,8 +1367,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 88.646 126.746 0)
+		(property "Value" "100n"
+			(at 88.392 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1586,7 +1584,7 @@
 		(dnp no)
 		(uuid "82395743-f344-4c2c-ac15-aa165996bc8b")
 		(property "Reference" "C4"
-			(at 167.386 91.694 0)
+			(at 167.132 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,8 +1592,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 167.386 93.726 0)
+		(property "Value" "10n"
+			(at 167.132 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1722,7 @@
 		(dnp no)
 		(uuid "9c450755-e689-4c19-b21f-2d0e4c9a9429")
 		(property "Reference" "C3"
-			(at 157.226 91.694 0)
+			(at 156.972 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,8 +1730,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 157.226 93.726 0)
+		(property "Value" "100n"
+			(at 156.972 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1791,7 @@
 		(dnp no)
 		(uuid "b366f40c-801f-484d-9e32-c2a15470b425")
 		(property "Reference" "C2"
-			(at 98.806 124.714 0)
+			(at 98.552 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,8 +1799,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
-			(at 98.806 126.746 0)
+		(property "Value" "10n"
+			(at 98.552 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,4 +1,4 @@
-25296770182584315
+25302018615990882
 Argus-Connectors
 20AWG Through Hole
 
@@ -55,6 +55,20 @@ GCT_USB4110GFA
 0
 16
 16
+Argus-Connectors
+Harwin Gecko 6-Pin
+
+
+0
+0
+0
+Argus-Connectors
+Header
+
+
+0
+0
+0
 Argus-Connectors
 Molex_200528-0040_1x04-1MP_P1.00mm_Horizontal
 Molex Molex 1.00mm Pitch Easy-On BackFlip, Right-Angle, Bottom Contact FFC/FPC, 200528-0040, 4 Circuits (https://www.molex.com/pdm_docs/sd/2005280040_sd.pdf), generated with kicad-footprint-generator
@@ -210,6 +224,13 @@ SIRA99DP-T1-GE3
 0
 0
 Argus-Misc
+MountingHole_3.2mm_5.2mm_Slot_TopBottom
+Mounting Hole 3.2mm, M3, DIN965
+mounting hole 3.2mm m3 din965
+0
+3
+1
+Argus-Misc
 MountingHole_3.2mm_M3_DIN965_Pad_TopBottom
 Mounting Hole 3.2mm, M3, DIN965
 mounting hole 3.2mm m3 din965
@@ -266,14 +287,14 @@ RPi_Pico
 40
 40
 Argus-Misc
-SM141K06TF
+SM141K06TF_S
 
 
 0
 4
 2
 Argus-Misc
-SM141K10TF
+SM141K10TF_S
 
 
 0
