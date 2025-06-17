@@ -1265,6 +1265,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d75047f2-f23d-4d7b-b42d-f40d752b2a25")
 		)
@@ -1326,6 +1335,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 86.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844564"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -1403,6 +1421,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C307348"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13738f6a-78dc-44b9-a342-8efb24cc8f0a")
 		)
@@ -1464,6 +1491,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 80.01 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2484712"
 			(at 80.01 125.73 0)
 			(effects
 				(font
@@ -1628,6 +1664,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C161232"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0485413-12b0-40b0-8ddc-f81bce583fcc")
 		)
@@ -1689,6 +1734,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844564"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -1766,6 +1820,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C307348"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5bf358b7-80b7-4ff0-a4bb-519bbafc397d")
 		)
@@ -1835,6 +1898,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C161232"
+			(at 96.52 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21551725-d87f-4331-83b9-835f660d747c")
 		)
@@ -1896,6 +1968,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2484712"
 			(at 148.59 92.71 0)
 			(effects
 				(font
@@ -2052,6 +2133,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 73.66 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2484712"
 			(at 73.66 125.73 0)
 			(effects
 				(font

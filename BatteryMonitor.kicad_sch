@@ -2566,6 +2566,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844741"
+			(at 200.66 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88a1c063-0f44-4a05-9687-5f16c4072c5c")
 		)
@@ -2698,6 +2707,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844915"
+			(at 194.31 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "623e2e7a-964d-4b2a-a484-d4d50581efcd")
 		)
@@ -2758,6 +2776,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C840621"
+			(at 101.6 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,6 +2922,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 200.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844741"
+			(at 200.66 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,6 +3285,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844774"
+			(at 144.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19c77cbe-8195-4d51-9548-5e3d0d0f37bb")
 		)
@@ -3309,6 +3354,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2479067"
+			(at 194.31 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,6 +3708,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3029194"
+			(at 46.99 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4a60475-202f-42bd-b36b-162476725e54")
 		)
@@ -3715,6 +3778,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C161231"
 			(at 57.15 93.98 0)
 			(effects
 				(font
@@ -3785,6 +3857,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C472773"
 			(at 101.6 121.92 0)
 			(effects
 				(font
@@ -3925,6 +4006,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C2484712"
+			(at 125.73 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa817345-b075-4640-950c-57cb90a27ba9")
 		)
@@ -3985,6 +4075,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844741"
+			(at 200.66 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4053,6 +4152,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C472773"
 			(at 106.68 121.92 0)
 			(effects
 				(font
@@ -4131,6 +4239,14 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" "NTCS0603E3103JLT"
+			(at 138.43 152.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c783d486-c383-4473-96cf-37386ba37327")
 		)
@@ -4198,6 +4314,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844575"
+			(at 200.66 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fcbb6d4f-95df-4eed-b442-804d3f584e1a")
 		)
@@ -4258,6 +4383,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 194.31 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C844915"
+			(at 194.31 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,6 +4536,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844917"
+			(at 46.99 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d4a60475-202f-42bd-b36b-162476725e55")
 		)
@@ -4471,6 +4614,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C161231"
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b29bb88-0108-4ece-ac25-1eae43a43322")
 		)
@@ -4530,6 +4682,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C401140"
 			(at 101.6 96.52 0)
 			(effects
 				(font
@@ -4646,6 +4807,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C844774"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea6f7094-e579-47ae-8d8f-6cc49d4e33ff")
 		)
@@ -4707,6 +4877,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 67.31 93.98 0)
 			(effects
 				(font

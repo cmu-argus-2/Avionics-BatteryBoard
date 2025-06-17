@@ -1074,6 +1074,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ce8ae57-0b9b-499e-ad73-e8744061143f")
 		)
@@ -1232,6 +1241,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea69aebe-c1c8-45e9-961d-e225c692c66b")
 		)
@@ -1374,6 +1392,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad65384e-09c8-48f7-9cb3-4056f119f3b2")
 		)
@@ -1447,6 +1474,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "C844862"
+			(at 167.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1747,6 +1783,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 109.22 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d12b6a95-d09d-445b-8193-4396dc7cd78c")
 		)
@@ -1893,6 +1938,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "MPN" "C844862"
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"

@@ -2213,6 +2213,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 124.46 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c9db9a4-4cbb-4186-827c-429d21b9e7a9")
 		)
@@ -2348,6 +2357,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3289459"
+			(at 135.89 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "0d56d87e-486c-4319-80d2-a65a7d31b17d")
 		)
@@ -2426,6 +2444,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C237792"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8b29da4-289c-421c-ba9a-078fb1fda847")
 		)
@@ -2489,6 +2516,15 @@
 		)
 		(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
 			(at 170.18 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3289459"
+			(at 170.18 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,6 +2616,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 113.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "679d845d-773c-441f-bc66-3ffd6b6bac88")
 		)
@@ -2642,6 +2687,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 152.4 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 152.4 138.43 0)
 			(effects
 				(font
@@ -2725,6 +2779,15 @@
 				)
 			)
 		)
+		(property "MPN" "C844862"
+			(at 113.03 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8604e727-6191-4e56-828d-b9944ef7cec2")
 		)
@@ -2795,6 +2858,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C138280"
+			(at 191.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "370a2d9e-931f-412f-8fba-91df79814192")
 		)
@@ -2856,6 +2928,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C138280"
 			(at 119.38 64.77 0)
 			(effects
 				(font
@@ -2990,6 +3071,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C307348"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -3281,6 +3371,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C3289459"
+			(at 135.89 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "4d957a47-2a8e-45f5-8fc4-9066e2182a45")
 		)
@@ -3436,6 +3535,15 @@
 		)
 		(property "Description" "-60A Id, -20V Vds, 1.9 mOhm Ron, PowerPAK-8"
 			(at 168.91 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3289459"
+			(at 168.91 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)

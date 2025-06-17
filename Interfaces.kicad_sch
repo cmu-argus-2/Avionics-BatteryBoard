@@ -3021,6 +3021,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C916325"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ee07c6c-a01a-47ae-a544-d4c8bbc42e5d")
 		)
@@ -3157,6 +3166,15 @@
 			)
 		)
 		(property "Description" "ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C531179"
 			(at 186.69 111.76 0)
 			(effects
 				(font
@@ -3442,6 +3460,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C531179"
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "e7dd3758-dbfc-47a3-b742-dd13d3ca4bf0")
 		)
@@ -3685,9 +3712,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a0b92a6-68da-4d13-83da-69b73b934e12")
 		(property "Reference" "J8"
 			(at 106.68 53.086 0)
@@ -4145,6 +4172,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C588180"
+			(at 87.63 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad32016d-2c81-49ad-8f36-77c12711210e")
 		)
@@ -4431,6 +4467,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C386084"
 			(at 123.19 127 0)
 			(effects
 				(font
