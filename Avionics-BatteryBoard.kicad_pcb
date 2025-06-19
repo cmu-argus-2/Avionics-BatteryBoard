@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.69)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -53,7 +53,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 1.33)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -36275,7 +36275,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3550.0000 mils"
+		(gr_text "90.1700 mm"
 			(at 140.335 40.106601 0)
 			(layer "Dwgs.User")
 			(uuid "276a448b-2656-4ecc-858e-a3ad1e330d36")
@@ -36312,7 +36312,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "3775.0000 mils"
+		(gr_text "95.8850 mm"
 			(at 86.614 96.8375 90)
 			(layer "Dwgs.User")
 			(uuid "be4e72a4-ae23-4a64-971c-dde4da56241d")
