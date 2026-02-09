@@ -100,9 +100,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../../Gerbers/MAX17205-Programmer/")
 		)
 	)
 	(net 0 "")
@@ -872,7 +872,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1169.0000 mils"
+		(gr_text "29.6926 mm"
 			(at 136.01 102.38092 90)
 			(layer "Dwgs.User")
 			(uuid "2cf4f3bf-ec28-4228-b22b-d99f328cb44d")
@@ -909,7 +909,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "600.0000 mils"
+		(gr_text "15.2400 mm"
 			(at 147.8534 83.13342 0)
 			(layer "Dwgs.User")
 			(uuid "778503de-3925-4da4-ac63-07c8abe92c39")
