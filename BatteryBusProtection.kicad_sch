@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2025-04-16")
-		(rev "v3.1")
+		(date "2026-04-14")
+		(rev "v3.2")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -1307,7 +1307,7 @@
 		(uuid 864c2e4b-3b30-4ae5-ab80-fc6600382c11)
 	)
 	(rectangle
-		(start 70.866 99.06)
+		(start 70.866 95.25)
 		(end 217.678 155.194)
 		(stroke
 			(width 0)
@@ -1319,7 +1319,7 @@
 		(uuid b9d57ef1-c42b-4d4a-bb91-7df6fef3bee3)
 	)
 	(rectangle
-		(start 70.866 34.798)
+		(start 70.866 31.115)
 		(end 217.678 90.932)
 		(stroke
 			(width 0)
@@ -1332,7 +1332,7 @@
 	)
 	(text "CHARGE SWITCH"
 		(exclude_from_sim no)
-		(at 79.502 37.084 0)
+		(at 79.756 33.528 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1365,7 +1365,7 @@
 	)
 	(text "DISCHARGE SWITCH"
 		(exclude_from_sim no)
-		(at 81.026 101.346 0)
+		(at 81.28 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1386,6 +1386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23ea40ed-112d-4d16-b1cc-b929eb9a3a0e")
+	)
+	(junction
+		(at 147.32 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "322406ad-a2b1-42e7-b024-c5937d816041")
 	)
 	(junction
 		(at 191.77 135.89)
@@ -1460,6 +1466,12 @@
 		(uuid "c8a969ff-49e2-4bee-8929-9675fbc2a873")
 	)
 	(junction
+		(at 124.46 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15aed21-c8db-41bd-8d52-7ad560769765")
+	)
+	(junction
 		(at 124.46 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1512,6 +1524,26 @@
 			(type default)
 		)
 		(uuid "0539488e-1349-4eda-9f46-d0fe73b3c41c")
+	)
+	(wire
+		(pts
+			(xy 147.32 34.925) (xy 147.32 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f33e87-3bf7-41ce-be1c-6524947e4f9a")
+	)
+	(wire
+		(pts
+			(xy 124.46 45.72) (xy 130.81 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4d66fa-0082-4481-a16b-64103da35752")
 	)
 	(wire
 		(pts
@@ -1572,6 +1604,16 @@
 			(type default)
 		)
 		(uuid "385ce2a8-95a8-406e-9c98-040b7087193a")
+	)
+	(wire
+		(pts
+			(xy 133.35 34.925) (xy 124.46 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ac4955-fd47-4f43-a8d1-8e4e25ba9458")
 	)
 	(wire
 		(pts
@@ -1665,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 110.49) (xy 152.4 110.49)
+			(xy 140.97 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1682,6 +1724,16 @@
 			(type default)
 		)
 		(uuid "5fe2f848-e608-474b-af8b-3966bdcfd644")
+	)
+	(wire
+		(pts
+			(xy 124.46 34.925) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601ae057-c35e-4bdb-89eb-4ab891485b56")
 	)
 	(wire
 		(pts
@@ -1702,6 +1754,16 @@
 			(type default)
 		)
 		(uuid "6782a235-a915-4f7b-9b89-9c62a18da8e4")
+	)
+	(wire
+		(pts
+			(xy 124.46 99.695) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f36dbb0-41a1-4ec0-97c3-e07682481707")
 	)
 	(wire
 		(pts
@@ -1805,6 +1867,26 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 99.695) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc64f4a-0336-48f8-881e-a83d901abb34")
+	)
+	(wire
+		(pts
+			(xy 133.35 99.695) (xy 124.46 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91216bbc-4912-4dd4-a671-9ad54d709186")
+	)
+	(wire
+		(pts
 			(xy 124.46 123.19) (xy 124.46 130.81)
 		)
 		(stroke
@@ -1825,6 +1907,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 110.49) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4dc25-b23f-4a04-8dda-dcf83ba22948")
+	)
+	(wire
+		(pts
 			(xy 133.35 66.04) (xy 135.89 66.04)
 		)
 		(stroke
@@ -1842,6 +1934,16 @@
 			(type default)
 		)
 		(uuid "9e2a8085-ec86-486b-85a8-7af460956c40")
+	)
+	(wire
+		(pts
+			(xy 138.43 99.695) (xy 147.32 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ffbbf73-39f9-4e4e-9a99-fa380af817d7")
 	)
 	(wire
 		(pts
@@ -2055,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 34.925) (xy 147.32 34.925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29b69c1-87e5-4e29-879e-a67606e88530")
+	)
+	(wire
+		(pts
 			(xy 135.89 53.34) (xy 135.89 66.04)
 		)
 		(stroke
@@ -2095,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 45.72) (xy 130.81 45.72)
+			(xy 115.57 45.72) (xy 124.46 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2229,9 +2341,85 @@
 			(uuid "1a0a84f5-94f2-4bd6-8763-3c6b53609823")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 34.925 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1572448c-3aa9-46ed-894b-0eb2a70a3e21")
+		(property "Reference" "R66"
+			(at 135.89 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 135.89 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 135.89 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 135.89 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bd0515c-cb5a-479f-a426-199daccfd8e1")
+		)
+		(pin "1"
+			(uuid "d0f0d0ea-6b63-4f2f-99fe-ec05c4054100")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2482,7 @@
 			(uuid "9942f6bb-3c37-4172-be57-5a65f47c7dc8")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "#PWR019")
 					(unit 1)
@@ -2307,12 +2495,12 @@
 		(at 135.89 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49f38d75-2fdd-49f0-86f2-09200f50c943")
 		(property "Reference" "Q7"
-			(at 135.89 39.37 90)
+			(at 135.89 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2508,7 @@
 			)
 		)
 		(property "Value" "SIRA99DP-T1-GE3"
-			(at 135.89 41.91 90)
+			(at 135.89 42.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2570,7 @@
 			(uuid "455da89d-9ed3-4c09-9049-315fd1880b2d")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "Q7")
 					(unit 1)
@@ -2460,7 +2648,7 @@
 			(uuid "fad23a18-f7f4-4da6-95d8-d55565fe93f8")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "R38")
 					(unit 1)
@@ -2478,7 +2666,7 @@
 		(dnp no)
 		(uuid "4b14505c-780b-4cd3-8f9f-ad8168274586")
 		(property "Reference" "Q10"
-			(at 170.18 104.14 90)
+			(at 170.18 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2674,7 @@
 			)
 		)
 		(property "Value" "SIRA99DP-T1-GE3"
-			(at 170.18 106.68 90)
+			(at 170.18 107.315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2736,7 @@
 			(uuid "b11b81a3-a143-42bc-bff6-7daa6cd6f510")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "Q10")
 					(unit 1)
@@ -2632,7 +2820,7 @@
 			(uuid "245a520b-7cf4-4dc4-a800-2a6cab5f0c79")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "F8")
 					(unit 1)
@@ -2711,7 +2899,7 @@
 			(uuid "fc27fa69-e2e8-4cfd-ada9-55006499cac3")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "C6")
 					(unit 1)
@@ -2795,7 +2983,7 @@
 			(uuid "3f7bd45f-9636-4a53-b8af-c0727ca57dfe")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "F7")
 					(unit 1)
@@ -2874,7 +3062,7 @@
 			(uuid "f2a87534-c5f5-41a8-ac14-b3a564dc6d7c")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "R40")
 					(unit 1)
@@ -2952,7 +3140,7 @@
 			(uuid "f95633cc-679b-499f-8809-1adc6a166dc0")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "R37")
 					(unit 1)
@@ -3017,9 +3205,85 @@
 			(uuid "cc552a75-9e7a-4ac5-8b1d-5caa0dcf7dc7")
 		)
 		(instances
-			(project ""
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 99.695 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b6251b5d-8c69-459a-9292-f551436e6668")
+		(property "Reference" "R67"
+			(at 135.89 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 135.89 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 135.89 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 135.89 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C237792"
+			(at 135.89 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e1f0da5-4446-4ee3-a530-8af9f37c46a5")
+		)
+		(pin "1"
+			(uuid "bf55b9c4-4fb3-4571-bb85-f6b1f2f07ef1")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -3095,7 +3359,7 @@
 			(uuid "fe1c6ce1-df95-4ce8-94f3-037fa31905fe")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "C5")
 					(unit 1)
@@ -3160,7 +3424,7 @@
 			(uuid "cf59d991-384d-4d91-851b-3f007281e170")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "#PWR050")
 					(unit 1)
@@ -3242,7 +3506,7 @@
 			(uuid "01d07af9-d4d9-45c9-8635-35393209b916")
 		)
 		(instances
-			(project ""
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "U3")
 					(unit 1)
@@ -3307,7 +3571,7 @@
 			(uuid "464aedcb-4ffd-4c77-88f5-0bb09e0f9d06")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "#PWR03")
 					(unit 1)
@@ -3326,7 +3590,7 @@
 		(dnp no)
 		(uuid "d70bfb84-624e-4947-96bb-a2f815f2d4ee")
 		(property "Reference" "Q9"
-			(at 135.89 104.14 90)
+			(at 135.89 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3598,7 @@
 			)
 		)
 		(property "Value" "SIRA99DP-T1-GE3"
-			(at 135.89 106.68 90)
+			(at 135.89 107.315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3660,7 @@
 			(uuid "3ce4b0b2-2ad6-429b-8682-264e2fd4c379")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "Q9")
 					(unit 1)
@@ -3478,7 +3742,7 @@
 			(uuid "01d07af9-d4d9-45c9-8635-35393209b917")
 		)
 		(instances
-			(project ""
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "U4")
 					(unit 1)
@@ -3497,7 +3761,7 @@
 		(dnp no)
 		(uuid "dceebda4-fb7b-4b09-ba74-ce036aa0e104")
 		(property "Reference" "Q8"
-			(at 170.18 39.37 90)
+			(at 170.18 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3769,7 @@
 			)
 		)
 		(property "Value" "SIRA99DP-T1-GE3"
-			(at 170.18 41.91 90)
+			(at 170.18 42.545 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3831,7 @@
 			(uuid "cf47d8cf-6e1e-4674-8f53-388dea0efba2")
 		)
 		(instances
-			(project ""
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "Q8")
 					(unit 1)
@@ -3632,7 +3896,7 @@
 			(uuid "82d7f598-7145-4d49-9723-8980ea5a80d3")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
 					(reference "#PWR01")
 					(unit 1)

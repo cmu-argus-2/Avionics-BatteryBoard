@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Argus Batteryboard")
-		(date "2025-04-16")
-		(rev "v3.1")
+		(date "2026-04-14")
+		(rev "v3.2")
 		(company "Carnegie Mellon University")
 		(comment 1 "M. Holliday")
 		(comment 2 "N. Khera")
@@ -2058,7 +2058,7 @@
 			(uuid "b1fdb0cc-2b7e-461a-af6c-652ab73d266d")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q14")
 					(unit 2)
@@ -2174,7 +2174,7 @@
 			(uuid "47874012-1d71-4691-87b0-6d6cbb13469c")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q13")
 					(unit 2)
@@ -2239,7 +2239,7 @@
 			(uuid "1cc75e26-0f38-4771-a83c-c5a2059ff640")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR08")
 					(unit 1)
@@ -2304,7 +2304,7 @@
 			(uuid "78841f37-5ac2-433d-9c39-1de4b4017d3c")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR06")
 					(unit 1)
@@ -2380,7 +2380,7 @@
 			(uuid "632aa30e-de9e-4c61-81ee-64bea289aa12")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R65")
 					(unit 1)
@@ -2445,7 +2445,7 @@
 			(uuid "2226b5c7-729a-49e4-aef1-f01691870fda")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR02")
 					(unit 1)
@@ -2561,7 +2561,7 @@
 			(uuid "df5470ec-522c-4934-a162-be946a6da540")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q11")
 					(unit 2)
@@ -2639,7 +2639,7 @@
 			(uuid "5057fda6-e68f-4e7d-bc9f-2953294be694")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R63")
 					(unit 1)
@@ -2717,7 +2717,7 @@
 			(uuid "b8bac7a4-4130-4cde-b712-dc60b23f1c46")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R59")
 					(unit 1)
@@ -2795,7 +2795,7 @@
 			(uuid "f4e77c0a-4202-4f15-8575-64dd461a402a")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R54")
 					(unit 1)
@@ -2871,7 +2871,7 @@
 			(uuid "05f16916-5a9b-48a0-a7c5-ff811596fd83")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R61")
 					(unit 1)
@@ -2936,7 +2936,7 @@
 			(uuid "fb8b1dad-8f5b-4e2b-b282-6fa6e2f13d1a")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR07")
 					(unit 1)
@@ -3001,7 +3001,7 @@
 			(uuid "783d3c82-d4c9-4c46-9882-1d4e962154e5")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR05")
 					(unit 1)
@@ -3079,7 +3079,7 @@
 			(uuid "b7a90255-3a13-4c9c-b068-eef6b8b576e5")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "C13")
 					(unit 1)
@@ -3171,7 +3171,7 @@
 			(uuid "ba8a89e2-afd1-4e97-b525-96fccf69c795")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q12")
 					(unit 2)
@@ -3249,7 +3249,7 @@
 			(uuid "5e736657-262f-4c43-9da1-95495d224efb")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R62")
 					(unit 1)
@@ -3327,7 +3327,7 @@
 			(uuid "8eb4ff28-3f5c-47d4-8e8f-a4152e9a5ec2")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R60")
 					(unit 1)
@@ -3405,7 +3405,7 @@
 			(uuid "a1a0d968-1cec-4dfd-9ec1-b2b3736b12c1")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "C12")
 					(unit 1)
@@ -3496,7 +3496,7 @@
 			(uuid "1fb34736-2ef0-418f-9a0b-dd9597d27b6a")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q12")
 					(unit 1)
@@ -3561,7 +3561,7 @@
 			(uuid "d0ee5cda-ef57-4ca9-a550-00c69962e6ad")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "#PWR04")
 					(unit 1)
@@ -3677,7 +3677,7 @@
 			(uuid "10fc518a-e059-49d4-b7e4-491c10b0856b")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q11")
 					(unit 1)
@@ -3755,7 +3755,7 @@
 			(uuid "307c866e-b36a-4949-b7c9-3b4c6b28fc0a")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R58")
 					(unit 1)
@@ -3871,7 +3871,7 @@
 			(uuid "1a995c84-1824-43f8-8816-aec9c8256675")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q13")
 					(unit 1)
@@ -3947,7 +3947,7 @@
 			(uuid "87a4d08e-146d-4b49-a344-6085e73a0ea7")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R56")
 					(unit 1)
@@ -4038,7 +4038,7 @@
 			(uuid "a293e444-ddf8-4653-813f-649586227d97")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "Q14")
 					(unit 1)
@@ -4116,7 +4116,7 @@
 			(uuid "91f99b1a-9781-45d3-8598-1d71ca70354a")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R55")
 					(unit 1)
@@ -4192,7 +4192,7 @@
 			(uuid "de6c0bdc-ea20-42ad-81dd-76f3a3ddb051")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R64")
 					(unit 1)
@@ -4270,7 +4270,7 @@
 			(uuid "1d330333-785b-42ac-b42a-70fb31c646f8")
 		)
 		(instances
-			(project "BatteryBoard"
+			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae/8631bf3a-5019-45d5-a8fe-6e53ccedb3c2"
 					(reference "R57")
 					(unit 1)
