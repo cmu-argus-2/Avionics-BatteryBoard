@@ -12641,6 +12641,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock_TE-Connectivity.3dshapes/TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19158,7 +19159,7 @@
 			(net 7 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "96947c06-8b77-41de-9345-138945aea0c0")
+			(uuid "87d90753-f0fe-4c92-a3dd-c41b2ed8e460")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/KiCad-Libraries/3D Models/2053380004.STEP"
@@ -26995,6 +26996,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -27007,6 +27009,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -28913,7 +28916,7 @@
 			(net 7 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "1dfbd3c7-0971-4c5d-9c1b-8cc920fa1b62")
+			(uuid "d19a39e0-f344-45ce-a6e5-8c9b9c6f70f1")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/KiCad-Libraries/3D Models/2053380002.step"
