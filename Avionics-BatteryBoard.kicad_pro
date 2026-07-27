@@ -263,7 +263,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v3.2"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -792,16 +792,16 @@
       {
         "filename": "Avionics-BatteryBoard.kicad_sch",
         "name": "Avionics-BatteryBoard",
-        "uuid": "b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
+        "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
-    "used_designators": "U11,F12-15,D7-8",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "b6fd875d-6e05-4440-9a05-0f0aa046a0ef",
-      "Avionics-BatteryBoard"
+      "Root"
     ],
     [
       "7ba9fa06-6a7f-47d4-99e7-e1daf0ec12b6",
