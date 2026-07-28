@@ -2024,6 +2024,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Argus-Battery:21700_batt_holder_th")
+		(at 205.74 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "4e0cd563-e2ea-4d11-9ad5-52b3ff67d4fb")
+		(property "Reference" "J11"
+			(at 211.582 64.516 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 205.74 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Argus-Battery:21700_battery_holder_th"
+			(at 222.758 97.282 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "fe7f0579-11e0-4a28-9931-044410b7c53b")
+		)
+		(pin "1"
+			(uuid "d360687e-01c9-4d3e-805a-d9e8e02fea99")
+		)
+		(pin "5"
+			(uuid "cd9fbc62-09e3-476a-bc13-2582202b667d")
+		)
+		(pin "7"
+			(uuid "618ac9d4-4813-461f-87a3-ddbb7881bae6")
+		)
+		(pin "6"
+			(uuid "0705d29b-f300-4aa5-86ad-9df08ad89e58")
+		)
+		(pin "8"
+			(uuid "2d17d2bf-b008-45ac-a77a-e607e34b92f1")
+		)
+		(pin "2"
+			(uuid "e13a72e5-30bd-47ed-a538-b49a5d1bebb1")
+		)
+		(pin "4"
+			(uuid "b56f7116-46d5-4c48-990f-b229f2db0d97")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 198.12 77.47 180)
 		(unit 1)
@@ -3245,102 +3341,6 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Argus-Battery:21700_batt_holder_th")
-		(at 205.74 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "fc38f28c-f3b9-4255-b881-d81845af4f87")
-		(property "Reference" "J11"
-			(at 211.328 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 205.74 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Argus-Battery:21700_battery_holder_th"
-			(at 223.266 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "7f7ea017-5de4-4069-b8ca-9c503f886706")
-		)
-		(pin "5"
-			(uuid "86b304d3-813c-486f-9edd-75808aacacfb")
-		)
-		(pin "6"
-			(uuid "bb4dc7e0-de84-46a6-98b2-d97282707680")
-		)
-		(pin "1"
-			(uuid "d77715fe-e09f-4e4f-91bd-d12ee04d8251")
-		)
-		(pin "2"
-			(uuid "bd4100aa-5b96-4273-8c6c-da3734e2ac99")
-		)
-		(pin "3"
-			(uuid "d0945def-456a-4184-882b-68c6684e7988")
-		)
-		(pin "8"
-			(uuid "b686617e-4114-49df-bd32-d0424b687343")
-		)
-		(pin "7"
-			(uuid "7190b8e8-101a-4ddc-8a79-c4b01b4df64c")
-		)
-		(instances
-			(project "Avionics-BatteryBoard"
-				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
-					(reference "J11")
 					(unit 1)
 				)
 			)
