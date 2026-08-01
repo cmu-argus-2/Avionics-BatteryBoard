@@ -3957,7 +3957,7 @@
 	(footprint "Resistor_SMD:R_2512_6332Metric"
 		(layer "F.Cu")
 		(uuid "ff93fa17-bc54-4b28-901d-92fd1f08857f")
-		(at 106.605633 101.845688 -90)
+		(at 106.4768 100.33 -90)
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -31736,12 +31736,12 @@
 		(uuid "f17d148a-a723-49c2-9a45-4d9cad4db832")
 	)
 	(segment
-		(start 106.605633 104.808188)
+		(start 106.605633 103.894633)
 		(end 106.605633 114.5452)
 		(width 1.8288)
 		(layer "F.Cu")
 		(net "Net-(R28-Pad1)")
-		(uuid "387c2522-ecde-4732-9fdf-c6e5c7bd7289")
+		(uuid "37f49623-b5aa-4d09-a661-f296d7ef8edc")
 	)
 	(segment
 		(start 106.605633 114.5452)
@@ -31749,7 +31749,15 @@
 		(width 1.8288)
 		(layer "F.Cu")
 		(net "Net-(R28-Pad1)")
-		(uuid "85174df5-e9fd-47dc-916d-019ead6ad59f")
+		(uuid "a8097864-7f88-4fbb-9133-af12028812e5")
+	)
+	(segment
+		(start 106.6038 103.8928)
+		(end 106.605633 103.894633)
+		(width 1.8288)
+		(layer "F.Cu")
+		(net "Net-(R28-Pad1)")
+		(uuid "c464ade1-1058-49bb-ac51-0c2685c35c68")
 	)
 	(via
 		(at 109.0676 118.237)
@@ -32621,19 +32629,11 @@
 	)
 	(segment
 		(start 106.425833 83.692797)
-		(end 106.425833 98.703388)
+		(end 106.425833 97.789833)
 		(width 1.8288)
 		(layer "F.Cu")
 		(net "Net-(R29-Pad1)")
-		(uuid "977661b3-e54c-4700-a240-421ea19c48d4")
-	)
-	(segment
-		(start 106.425833 98.703388)
-		(end 106.605633 98.883188)
-		(width 1.8288)
-		(layer "F.Cu")
-		(net "Net-(R29-Pad1)")
-		(uuid "c9f6abb4-fdc1-4283-bd1e-5442a350401c")
+		(uuid "7abe1ee4-2598-4619-9011-873ea9494003")
 	)
 	(segment
 		(start 172.212 96.387867)
