@@ -20,8 +20,8 @@
 			(on_board no)
 			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 0 0)
+			(property "Reference" "J11"
+				(at 5.842 0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -41,7 +41,7 @@
 				)
 			)
 			(property "Footprint" "Argus-Battery:21700_battery_holder_th"
-				(at 0 0 0)
+				(at 19.05 -43.18 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -74,8 +74,8 @@
 			)
 			(symbol "21700_batt_holder_th_0_1"
 				(rectangle
-					(start 3.81 -1.27)
-					(end 30.48 -30.48)
+					(start 3.81 -2.54)
+					(end 30.48 -35.56)
 					(stroke
 						(width 0)
 						(type default)
@@ -223,6 +223,78 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 20.32 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 25.4 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -821,6 +893,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 52.324 71.374)
@@ -880,6 +1067,12 @@
 		(uuid "1302e521-fef6-4698-a0e8-27715d47d7b9")
 	)
 	(junction
+		(at 246.38 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1354425f-85a4-47be-8dea-e207b2510680")
+	)
+	(junction
 		(at 40.64 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -916,6 +1109,12 @@
 		(uuid "6bcd99f1-4bc4-4a3a-ba1d-6b1e38113265")
 	)
 	(junction
+		(at 231.14 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bd6c3fa-e06a-4beb-9c47-85243fca3576")
+	)
+	(junction
 		(at 246.38 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -940,10 +1139,10 @@
 		(uuid "ac9beabd-605f-4092-ab1d-8d7fb4077d7e")
 	)
 	(junction
-		(at 246.38 92.71)
+		(at 226.06 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7979a90-eb0c-4b51-81ef-78ff54cd21c2")
+		(uuid "b766f6d1-f1ba-4d69-8794-f5497a3d4965")
 	)
 	(junction
 		(at 40.64 101.6)
@@ -956,6 +1155,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d324c693-8ff3-4333-9e62-5694e8d58a84")
+	)
+	(junction
+		(at 220.98 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df02fdee-bf2f-4d2e-b7e4-39b8b356b650")
 	)
 	(junction
 		(at 111.76 101.6)
@@ -971,6 +1176,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 104.14) (xy 220.98 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001d3db9-2607-4260-b44a-6c375ea3cfab")
+	)
+	(wire
+		(pts
 			(xy 76.2 101.6) (xy 76.2 113.03)
 		)
 		(stroke
@@ -981,6 +1196,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 104.14) (xy 226.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0448dd26-26be-4b97-bd87-c83d63d37c9d")
+	)
+	(wire
+		(pts
 			(xy 200.66 77.47) (xy 207.01 77.47)
 		)
 		(stroke
@@ -988,6 +1213,16 @@
 			(type default)
 		)
 		(uuid "04e4f1a8-a6c7-49f7-b47a-9e6c8f1119d7")
+	)
+	(wire
+		(pts
+			(xy 226.06 104.14) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cbb459-7aa2-4293-befc-1111ded62308")
 	)
 	(wire
 		(pts
@@ -1041,6 +1276,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 104.14) (xy 220.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e68672e-82ac-4a05-a56a-01420226fd07")
+	)
+	(wire
+		(pts
 			(xy 111.76 90.17) (xy 111.76 101.6)
 		)
 		(stroke
@@ -1088,6 +1333,16 @@
 			(type default)
 		)
 		(uuid "3619b47f-4ba3-4f14-9588-8c66c56bf64f")
+	)
+	(wire
+		(pts
+			(xy 215.9 104.14) (xy 215.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37515ce5-9c7f-4ac4-8cd4-616c8300dafc")
 	)
 	(wire
 		(pts
@@ -1171,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 105.41) (xy 246.38 105.41)
+			(xy 226.06 111.76) (xy 246.38 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1208,6 +1463,26 @@
 			(type default)
 		)
 		(uuid "5f976f2b-dbd0-4ecf-8e86-1b4972fa7ed4")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 226.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fae7f3-7d9f-4983-b2ee-33cb86fbecb3")
+	)
+	(wire
+		(pts
+			(xy 231.14 105.41) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6618c499-2e89-4a5e-a2cc-e58c13358f37")
 	)
 	(wire
 		(pts
@@ -1301,7 +1576,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 105.41) (xy 246.38 92.71)
+			(xy 231.14 102.87) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81bd9e9f-c9a2-464f-9383-2dca02008261")
+	)
+	(wire
+		(pts
+			(xy 246.38 111.76) (xy 246.38 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1616,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 92.71) (xy 195.58 105.41)
+			(xy 195.58 92.71) (xy 195.58 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1666,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 220.98 105.41)
+			(xy 195.58 111.76) (xy 220.98 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1826,7 +2111,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 223.52 105.41 180)
+		(at 223.52 111.76 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1836,7 +2121,7 @@
 		(dnp no)
 		(uuid "3079ce39-e3ee-401c-9904-bce018f5d06f")
 		(property "Reference" "D7"
-			(at 223.52 108.204 0)
+			(at 223.52 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1846,7 +2131,7 @@
 			)
 		)
 		(property "Value" "BAT60JFILM"
-			(at 223.52 110.49 0)
+			(at 223.52 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1856,7 +2141,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 223.52 105.41 90)
+			(at 223.52 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1867,7 +2152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 105.41 90)
+			(at 223.52 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1878,7 +2163,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 223.52 105.41 0)
+			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1889,7 +2174,7 @@
 			)
 		)
 		(property "Field5" "10V Vrm"
-			(at 223.52 112.776 0)
+			(at 223.52 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1899,7 +2184,7 @@
 			)
 		)
 		(property "Flight" "DNI"
-			(at 223.52 114.808 0)
+			(at 223.52 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2035,7 +2320,7 @@
 		(dnp no)
 		(uuid "4e0cd563-e2ea-4d11-9ad5-52b3ff67d4fb")
 		(property "Reference" "J11"
-			(at 211.582 64.516 0)
+			(at 211.328 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2055,7 +2340,7 @@
 			)
 		)
 		(property "Footprint" "Argus-Battery:21700_battery_holder_th"
-			(at 222.758 97.282 0)
+			(at 224.536 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2109,6 +2394,18 @@
 		)
 		(pin "4"
 			(uuid "b56f7116-46d5-4c48-990f-b229f2db0d97")
+		)
+		(pin "10"
+			(uuid "63a0e428-704a-4d21-8394-00ada06f7e8c")
+		)
+		(pin "12"
+			(uuid "7300191f-0c36-4756-8cc1-a389f106daa2")
+		)
+		(pin "9"
+			(uuid "bc1b7480-a15e-41b3-826b-22f7f78ddc92")
+		)
+		(pin "11"
+			(uuid "cb65128a-ec29-4505-9576-9e36812544a5")
 		)
 		(instances
 			(project "Avionics-BatteryBoard"
@@ -2872,6 +3169,84 @@
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9bae7fd-9d90-461e-ad2d-c615944e51e1")
+		(property "Reference" "#PWR023"
+			(at 231.14 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6566c24-7e2a-4c6f-b9c7-57f1288cb728")
+		)
+		(instances
+			(project "Avionics-BatteryBoard"
+				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/929ad239-5e24-4db1-ba18-c148cf561726"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

@@ -5,4 +5,8 @@
 	(lib (name "Argus-Misc") (type "KiCad") (uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Miscellaneous.pretty") (options "") (descr ""))
 	(lib (name "Argus-Connectors") (type "KiCad") (uri "${KIPRJMOD}/../KiCad-Libraries/Argus-Connectors.pretty") (options "") (descr ""))
 	(lib (name "Argus-Battery") (type "KiCad") (uri "${KIPRJMOD}/KiCad-Libraries/Argus-21700holder.pretty") (options "") (descr ""))
+	(lib (name "Argus-21700holder") (type "KiCad") (uri "${KIPRJMOD}/KiCad-Libraries/Argus-21700holder.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/KiCad-Libraries/Argus-21700holder.pretty/Library.pretty") (options "") (descr ""))
+	(lib (name "Argus-21700holder") (type "KiCad") (uri "${KIPRJMOD}/KiCad-Libraries/Argus-21700holder.pretty") (options "") (descr ""))
+	(lib (name "Argus-21700holder") (type "KiCad") (uri "${KIPRJMOD}/KiCad-Libraries/Argus-21700holder.pretty") (options "") (descr ""))
 )
