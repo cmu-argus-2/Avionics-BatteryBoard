@@ -594,16 +594,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 62.23) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a95e6f1-14b4-405e-a2f6-e1b4657e06ca")
-	)
-	(wire
-		(pts
 			(xy 157.48 114.3) (xy 185.42 114.3)
 		)
 		(stroke
@@ -611,16 +601,6 @@
 			(type default)
 		)
 		(uuid "731707fc-898e-4d20-a130-9843b053822f")
-	)
-	(wire
-		(pts
-			(xy 181.61 93.98) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8861e2d3-1d16-43de-a7e3-754215a5d947")
 	)
 	(wire
 		(pts
@@ -711,16 +691,6 @@
 			(type default)
 		)
 		(uuid "ba77c61a-3e37-4876-8496-79e56301fdd5")
-	)
-	(wire
-		(pts
-			(xy 185.42 93.98) (xy 181.61 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6a2fe1-b182-449d-9dab-30101f6c11e3")
 	)
 	(wire
 		(pts
@@ -1588,8 +1558,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 59.69)
-		(size 38.1 15.24)
+		(at 119.38 64.77)
+		(size 38.1 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1604,7 +1574,7 @@
 		)
 		(uuid "8b9e55cd-928e-4578-a188-133f4642b05f")
 		(property "Sheetname" "Battery Temperature Protection"
-			(at 119.38 58.9784 0)
+			(at 119.38 64.0584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1638,16 +1608,6 @@
 		(pin "HEATER1_ON" input
 			(at 157.48 72.39 0)
 			(uuid "310c118f-6835-48d7-9e47-636f3fbdeb68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HEATER_ENABLE" input
-			(at 157.48 62.23 0)
-			(uuid "05adfbd3-9715-4be5-814a-6b5f18513e2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,8 +1806,8 @@
 		)
 	)
 	(sheet
-		(at 185.42 90.932)
-		(size 27.94 30.988)
+		(at 185.42 95.25)
+		(size 27.94 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1862,7 +1822,7 @@
 		)
 		(uuid "e0cf694e-e610-403b-8199-ed27af9d964d")
 		(property "Sheetname" "Interfaces"
-			(at 185.42 90.2204 0)
+			(at 185.42 94.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,16 +1866,6 @@
 		(pin "ALERT" input
 			(at 185.42 109.22 180)
 			(uuid "ac534290-4223-4717-9239-95fbeb6b4934")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HEATER_ENABLE" output
-			(at 185.42 93.98 180)
-			(uuid "413d9b15-7948-4881-844e-e532d6dd73de")
 			(effects
 				(font
 					(size 1.27 1.27)

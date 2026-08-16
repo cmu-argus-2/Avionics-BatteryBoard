@@ -21,7 +21,7 @@
 			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J11"
-				(at 5.842 0.254 0)
+				(at 5.588 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -41,7 +41,7 @@
 				)
 			)
 			(property "Footprint" "Argus-Battery:21700_battery_holder_th"
-				(at 19.05 -43.18 0)
+				(at 18.796 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
