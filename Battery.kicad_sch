@@ -5,13 +5,13 @@
 	(uuid "67f1ccc8-bc57-4eb8-8331-f775885ef8b7")
 	(paper "USLetter")
 	(title_block
-		(title "Argus Batteryboard")
-		(date "2026-04-14")
-		(rev "v3.2")
+		(title "Batteryboard")
+		(date "2026-08-21")
+		(rev "v4.0")
 		(company "Carnegie Mellon University")
-		(comment 1 "M. Holliday")
-		(comment 2 "N. Khera")
-		(comment 3 "V. Rajesh")
+		(comment 1 "N. Khera")
+		(comment 2 "V. Rajesh")
+		(comment 3 "S. Farhan")
 	)
 	(lib_symbols
 		(symbol "Argus-Battery:21700_batt_holder_th"
