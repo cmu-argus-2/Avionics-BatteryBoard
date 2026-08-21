@@ -2404,7 +2404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04f2e2aa-f790-4405-bb11-326f8be8ebde")
-		(property "Reference" "R39"
+		(property "Reference" "R24"
 			(at 125.73 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2479,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R39")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2496,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1572448c-3aa9-46ed-894b-0eb2a70a3e21")
-		(property "Reference" "R66"
+		(property "Reference" "R20"
 			(at 135.89 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2569,7 +2569,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R66")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2586,7 +2586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "386cfa30-612f-4ca1-b371-ae514224bab6")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 119.38 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2646,7 +2646,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2663,7 +2663,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "49f38d75-2fdd-49f0-86f2-09200f50c943")
-		(property "Reference" "Q7"
+		(property "Reference" "Q1"
 			(at 135.89 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2748,7 +2748,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q7")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2765,7 +2765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b116eae-b7a5-4bfb-be0a-ec93c1340b0a")
-		(property "Reference" "R38"
+		(property "Reference" "R21"
 			(at 146.05 54.864 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2840,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R38")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2857,7 +2857,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b14505c-780b-4cd3-8f9f-ad8168274586")
-		(property "Reference" "Q10"
+		(property "Reference" "Q4"
 			(at 170.18 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2942,7 +2942,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q10")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2959,7 +2959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fe5fef8-43a2-40d2-9f09-f9c77e8d73ef")
-		(property "Reference" "F8"
+		(property "Reference" "F6"
 			(at 113.03 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3042,7 +3042,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "F8")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac1210a-29a0-4101-8f3d-d7b16525586d")
-		(property "Reference" "C6"
+		(property "Reference" "C11"
 			(at 150.368 137.414 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3135,7 +3135,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "C6")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d8d8d77-fba0-408b-a7cc-dd72e74ed0b9")
-		(property "Reference" "F7"
+		(property "Reference" "F5"
 			(at 113.03 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3235,7 +3235,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "F7")
+					(reference "F5")
 					(unit 1)
 				)
 			)
@@ -3253,7 +3253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e1ba590-7c19-4e3b-8ccc-2db823eba728")
-		(property "Reference" "R40"
+		(property "Reference" "R25"
 			(at 193.04 128.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3328,7 +3328,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R40")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3345,7 +3345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acc2221a-5374-4128-883d-3c1d16df2a3d")
-		(property "Reference" "R37"
+		(property "Reference" "R22"
 			(at 118.11 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3420,7 +3420,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R37")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3514,7 +3514,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b6251b5d-8c69-459a-9292-f551436e6668")
-		(property "Reference" "R67"
+		(property "Reference" "R23"
 			(at 135.89 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,7 +3587,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "R67")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3604,7 +3604,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7f06680-6649-45e0-8bf9-ceb33a020cd2")
-		(property "Reference" "C5"
+		(property "Reference" "C10"
 			(at 189.992 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3679,7 +3679,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "C5")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -3696,7 +3696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb64aec6-a958-4a25-a856-7a721a5381fa")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR09"
 			(at 204.47 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3756,7 +3756,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "#PWR050")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3774,7 +3774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c74e18e1-b6b5-4c7b-bdc3-001145b45d49")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 172.212 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3850,7 +3850,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3867,7 +3867,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c79c7ea9-220a-4530-aaa1-db807d2f6829")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR013"
 			(at 170.18 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3927,7 +3927,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "#PWR03")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d70bfb84-624e-4947-96bb-a2f815f2d4ee")
-		(property "Reference" "Q9"
+		(property "Reference" "Q3"
 			(at 135.89 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4030,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q9")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da581c88-345f-4df9-a85d-347c44c144b3")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 172.3233 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4124,7 +4124,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -4142,7 +4142,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dceebda4-fb7b-4b09-ba74-ce036aa0e104")
-		(property "Reference" "Q8"
+		(property "Reference" "Q2"
 			(at 170.18 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,7 +4227,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "Q8")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef47f1ee-9c46-47f6-8f51-502bfaf7ed65")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR011"
 			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4304,7 +4304,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef/2701f768-968e-41c8-b7b5-2417f566d99b"
-					(reference "#PWR01")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

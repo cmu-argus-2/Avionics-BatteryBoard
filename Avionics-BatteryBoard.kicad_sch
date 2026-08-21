@@ -951,7 +951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "475a51fa-641f-454e-a30c-1c29a2a3db2c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR01"
 			(at 255.27 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -1011,7 +1011,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(reference "#PWR047")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -1552,7 +1552,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -1618,7 +1618,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(page "11")
+					(page "2")
 				)
 			)
 		)
@@ -1800,7 +1800,7 @@
 		(instances
 			(project "Avionics-BatteryBoard"
 				(path "/b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
-					(page "3")
+					(page "5")
 				)
 			)
 		)

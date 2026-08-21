@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2032,
-          "min_island_area": 9.9999993548,
+          "min_clearance": 0.381,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
@@ -795,7 +795,7 @@
         "uuid": "b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
       }
     ],
-    "used_designators": "#PWR23-24,#PWR34-35,#PWR56,#PWR59-61,#PWR63-70,#PWR116-117,J10,J12,U11,C15",
+    "used_designators": "D1-7,#PWR1-57,#PWR59-61,#PWR63-70,#PWR116-117,J1-12,U1-7,U11,C1-15,F1-14,H1-4,Q1-12,R1-57,TH1-4,TP1-2",
     "variants": []
   },
   "sheets": [
@@ -804,16 +804,20 @@
       "Avionics-BatteryBoard"
     ],
     [
+      "929ad239-5e24-4db1-ba18-c148cf561726",
+      "Battery"
+    ],
+    [
       "7ba9fa06-6a7f-47d4-99e7-e1daf0ec12b6",
       "Battery Bus Detection"
     ],
     [
-      "ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae",
-      "Battery Monitor"
-    ],
-    [
       "2701f768-968e-41c8-b7b5-2417f566d99b",
       "Battery Bus Protection"
+    ],
+    [
+      "ad142cc2-d77f-4a6c-99c2-d9e17f4c27ae",
+      "Battery Monitor"
     ],
     [
       "8631bf3a-5019-45d5-a8fe-6e53ccedb3c2",
@@ -828,16 +832,12 @@
       "BatteryHeater1"
     ],
     [
-      "e0cf694e-e610-403b-8199-ed27af9d964d",
-      "Interfaces"
-    ],
-    [
-      "929ad239-5e24-4db1-ba18-c148cf561726",
-      "Battery"
-    ],
-    [
       "95738717-905b-497b-9774-63ac446a9107",
       "BatteryHeater"
+    ],
+    [
+      "e0cf694e-e610-403b-8199-ed27af9d964d",
+      "Interfaces"
     ]
   ],
   "text_variables": {},
