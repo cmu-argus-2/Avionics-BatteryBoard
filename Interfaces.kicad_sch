@@ -3536,16 +3536,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 38.1 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19957d3d-a984-4746-8e4f-a9bae1c63dc3")
-	)
-	(wire
-		(pts
 			(xy 110.49 109.22) (xy 110.49 111.76)
 		)
 		(stroke
@@ -4453,16 +4443,6 @@
 			(type default)
 		)
 		(uuid "e61d5ffb-994a-43ee-a7ff-397f627b1b1b")
-	)
-	(wire
-		(pts
-			(xy 39.37 139.7) (xy 38.1 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6291041-920b-45eb-bc30-6a1a08e48633")
 	)
 	(wire
 		(pts
@@ -5552,7 +5532,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 38.1 137.16 0)
+		(at 39.37 137.16 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5563,7 +5543,7 @@
 		(dnp no)
 		(uuid "8184e25f-adb4-410c-a1f1-dcbd8f0eebe8")
 		(property "Reference" "C15"
-			(at 36.068 136.144 0)
+			(at 37.338 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5574,7 +5554,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 36.068 138.43 0)
+			(at 37.338 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5585,7 +5565,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 38.1 137.16 0)
+			(at 39.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 137.16 0)
+			(at 39.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5587,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 38.1 137.16 0)
+			(at 39.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +5598,7 @@
 			)
 		)
 		(property "MPN" "C386084"
-			(at 38.1 137.16 0)
+			(at 39.37 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
