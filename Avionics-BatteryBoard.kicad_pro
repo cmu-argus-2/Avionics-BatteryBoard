@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.381,
+          "corner_radius": 0.254,
           "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -795,7 +795,7 @@
         "uuid": "b6fd875d-6e05-4440-9a05-0f0aa046a0ef"
       }
     ],
-    "used_designators": "D1-7,#PWR1-57,#PWR59-61,#PWR63-70,#PWR116-117,J1-12,U1-7,U11,C1-15,F1-14,H1-4,Q1-12,R1-57,TH1-4,TP1-2",
+    "used_designators": "D1-7,#PWR1-61,#PWR63-70,#PWR116-117,J1-12,U1-7,U11,C1-15,F1-14,H1-4,Q1-12,R1-57,TH1-4,TP1-2,MP1-2",
     "variants": []
   },
   "sheets": [
